@@ -1,0 +1,724 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: Package201310Atlas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: dcac9197698cc2d4eb5036f59781e347, type: 2}
+  sprites:
+  - name: Button05_Package_Hook_02
+    outer:
+      serializedVersion: 2
+      x: 218
+      y: 44
+      width: 24
+      height: 24
+    inner:
+      serializedVersion: 2
+      x: 218
+      y: 44
+      width: 24
+      height: 24
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Button05_Package_Hook_01
+    outer:
+      serializedVersion: 2
+      x: 243
+      y: 7
+      width: 19
+      height: 16
+    inner:
+      serializedVersion: 2
+      x: 243
+      y: 7
+      width: 19
+      height: 16
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Button06_DesChange_01
+    outer:
+      serializedVersion: 2
+      x: 91
+      y: 12
+      width: 56
+      height: 56
+    inner:
+      serializedVersion: 2
+      x: 91
+      y: 12
+      width: 56
+      height: 56
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Button06_DesChange_02
+    outer:
+      serializedVersion: 2
+      x: 161
+      y: 12
+      width: 56
+      height: 56
+    inner:
+      serializedVersion: 2
+      x: 161
+      y: 12
+      width: 56
+      height: 56
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Button05_Package_Compare_02
+    outer:
+      serializedVersion: 2
+      x: 218
+      y: 17
+      width: 22
+      height: 26
+    inner:
+      serializedVersion: 2
+      x: 218
+      y: 17
+      width: 22
+      height: 26
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Button05_Package_Compare_01
+    outer:
+      serializedVersion: 2
+      x: 279
+      y: 105
+      width: 22
+      height: 26
+    inner:
+      serializedVersion: 2
+      x: 279
+      y: 105
+      width: 22
+      height: 26
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Button06_Upgrade_01
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1
+      width: 42
+      height: 46
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1
+      width: 42
+      height: 46
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Button21_Attack_Job_03
+    outer:
+      serializedVersion: 2
+      x: 91
+      y: 69
+      width: 69
+      height: 69
+    inner:
+      serializedVersion: 2
+      x: 91
+      y: 69
+      width: 69
+      height: 69
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Button21_Attack_Job_01
+    outer:
+      serializedVersion: 2
+      x: 161
+      y: 69
+      width: 69
+      height: 69
+    inner:
+      serializedVersion: 2
+      x: 161
+      y: 69
+      width: 69
+      height: 69
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Button21_Attack_Job_02
+    outer:
+      serializedVersion: 2
+      x: 243
+      y: 187
+      width: 69
+      height: 69
+    inner:
+      serializedVersion: 2
+      x: 243
+      y: 187
+      width: 69
+      height: 69
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Button01_Rune_01
+    outer:
+      serializedVersion: 2
+      x: 243
+      y: 96
+      width: 35
+      height: 35
+    inner:
+      serializedVersion: 2
+      x: 243
+      y: 96
+      width: 35
+      height: 35
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Button01_Medicine_01
+    outer:
+      serializedVersion: 2
+      x: 243
+      y: 60
+      width: 35
+      height: 35
+    inner:
+      serializedVersion: 2
+      x: 243
+      y: 60
+      width: 35
+      height: 35
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Button01_Accessory_01
+    outer:
+      serializedVersion: 2
+      x: 243
+      y: 24
+      width: 35
+      height: 35
+    inner:
+      serializedVersion: 2
+      x: 243
+      y: 24
+      width: 35
+      height: 35
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Button01_Diamond_01
+    outer:
+      serializedVersion: 2
+      x: 313
+      y: 221
+      width: 35
+      height: 35
+    inner:
+      serializedVersion: 2
+      x: 313
+      y: 221
+      width: 35
+      height: 35
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Button01_Item_01
+    outer:
+      serializedVersion: 2
+      x: 349
+      y: 221
+      width: 35
+      height: 35
+    inner:
+      serializedVersion: 2
+      x: 349
+      y: 221
+      width: 35
+      height: 35
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Button01_Armor_01
+    outer:
+      serializedVersion: 2
+      x: 385
+      y: 221
+      width: 35
+      height: 35
+    inner:
+      serializedVersion: 2
+      x: 385
+      y: 221
+      width: 35
+      height: 35
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Button01_Weapon_01
+    outer:
+      serializedVersion: 2
+      x: 421
+      y: 221
+      width: 35
+      height: 35
+    inner:
+      serializedVersion: 2
+      x: 421
+      y: 221
+      width: 35
+      height: 35
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Button01_Boots_01
+    outer:
+      serializedVersion: 2
+      x: 348
+      y: 185
+      width: 34
+      height: 35
+    inner:
+      serializedVersion: 2
+      x: 348
+      y: 185
+      width: 34
+      height: 35
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: .0294117648
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Button01_Helmet_01
+    outer:
+      serializedVersion: 2
+      x: 201
+      y: 145
+      width: 35
+      height: 35
+    inner:
+      serializedVersion: 2
+      x: 201
+      y: 145
+      width: 35
+      height: 35
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Button01_Bracers_01
+    outer:
+      serializedVersion: 2
+      x: 457
+      y: 221
+      width: 34
+      height: 35
+    inner:
+      serializedVersion: 2
+      x: 457
+      y: 221
+      width: 34
+      height: 35
+    rotated: 0
+    paddingLeft: .0294117648
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Button01_Shoulder_01
+    outer:
+      serializedVersion: 2
+      x: 313
+      y: 185
+      width: 34
+      height: 35
+    inner:
+      serializedVersion: 2
+      x: 313
+      y: 185
+      width: 34
+      height: 35
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: .0294117648
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Button04_Quest_New_01
+    outer:
+      serializedVersion: 2
+      x: 243
+      y: 132
+      width: 50
+      height: 54
+    inner:
+      serializedVersion: 2
+      x: 243
+      y: 132
+      width: 50
+      height: 54
+    rotated: 0
+    paddingLeft: .0399999991
+    paddingRight: .0199999996
+    paddingTop: .0185185187
+    paddingBottom: .0185185187
+  - name: Button15_MenuPackage_Normal_01
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 48
+      width: 90
+      height: 90
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 48
+      width: 90
+      height: 90
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Button04_Package1312_Bottom_06
+    outer:
+      serializedVersion: 2
+      x: 82
+      y: 8
+      width: 6
+      height: 12
+    inner:
+      serializedVersion: 2
+      x: 82
+      y: 8
+      width: 6
+      height: 12
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Button04_Package1312_Bottom_11
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 181
+      width: 242
+      height: 75
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 181
+      width: 242
+      height: 75
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Button04_Package1312_Bottom_05
+    outer:
+      serializedVersion: 2
+      x: 279
+      y: 75
+      width: 22
+      height: 20
+    inner:
+      serializedVersion: 2
+      x: 279
+      y: 75
+      width: 22
+      height: 20
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Button04_Package1312_Bottom_10
+    outer:
+      serializedVersion: 2
+      x: 294
+      y: 160
+      width: 15
+      height: 26
+    inner:
+      serializedVersion: 2
+      x: 294
+      y: 160
+      width: 15
+      height: 26
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Button04_Package1312_Bottom_09
+    outer:
+      serializedVersion: 2
+      x: 82
+      y: 21
+      width: 8
+      height: 26
+    inner:
+      serializedVersion: 2
+      x: 82
+      y: 21
+      width: 8
+      height: 26
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Button04_Package1312_Bottom_04
+    outer:
+      serializedVersion: 2
+      x: 433
+      y: 209
+      width: 51
+      height: 11
+    inner:
+      serializedVersion: 2
+      x: 433
+      y: 209
+      width: 51
+      height: 11
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Button04_Package1312_Bottom_07
+    outer:
+      serializedVersion: 2
+      x: 91
+      y: 5
+      width: 13
+      height: 6
+    inner:
+      serializedVersion: 2
+      x: 91
+      y: 5
+      width: 13
+      height: 6
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Button04_Package1312_Bottom_08
+    outer:
+      serializedVersion: 2
+      x: 237
+      y: 161
+      width: 5
+      height: 19
+    inner:
+      serializedVersion: 2
+      x: 237
+      y: 161
+      width: 5
+      height: 19
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Button04_Package1312_Exp_01
+    outer:
+      serializedVersion: 2
+      x: 383
+      y: 197
+      width: 49
+      height: 23
+    inner:
+      serializedVersion: 2
+      x: 383
+      y: 197
+      width: 49
+      height: 23
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Button04_Package1312_Power_01
+    outer:
+      serializedVersion: 2
+      x: 43
+      y: 5
+      width: 38
+      height: 42
+    inner:
+      serializedVersion: 2
+      x: 43
+      y: 5
+      width: 38
+      height: 42
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Button04_Package1312_Green_02
+    outer:
+      serializedVersion: 2
+      x: 294
+      y: 143
+      width: 13
+      height: 16
+    inner:
+      serializedVersion: 2
+      x: 294
+      y: 143
+      width: 13
+      height: 16
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Button04_Package1312_Red_02
+    outer:
+      serializedVersion: 2
+      x: 263
+      y: 7
+      width: 13
+      height: 16
+    inner:
+      serializedVersion: 2
+      x: 263
+      y: 7
+      width: 13
+      height: 16
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Button17_Chat_Bottom_01
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 139
+      width: 200
+      height: 41
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 139
+      width: 200
+      height: 41
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: BG_Shadow_01
+    outer:
+      serializedVersion: 2
+      x: 237
+      y: 155
+      width: 5
+      height: 5
+    inner:
+      serializedVersion: 2
+      x: 237
+      y: 155
+      width: 5
+      height: 5
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

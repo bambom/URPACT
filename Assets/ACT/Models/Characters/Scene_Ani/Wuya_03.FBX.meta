@@ -1,0 +1,189 @@
+fileFormatVersion: 2
+guid: 6f7af0f893c213f42a73121a3759b843
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: An_Corbie002
+    100002: biped Footsteps002
+    100004: biped Head002
+    100006: biped HeadNub002
+    100008: biped L Calf002
+    100010: biped L Clavicle002
+    100012: biped L Finger002
+    100014: biped L Finger0Nub002
+    100016: biped L Foot002
+    100018: biped L Forearm002
+    100020: biped L Hand002
+    100022: biped L Thigh002
+    100024: biped L Toe002
+    100026: biped L Toe0Nub002
+    100028: biped L UpperArm002
+    100030: biped Neck002
+    100032: biped Pelvis002
+    100034: biped R Calf002
+    100036: biped R Clavicle002
+    100038: biped R Finger002
+    100040: biped R Finger0Nub002
+    100042: biped R Foot002
+    100044: biped R Forearm002
+    100046: biped R Hand002
+    100048: biped R Thigh002
+    100050: biped R Toe002
+    100052: biped R Toe0Nub002
+    100054: biped R UpperArm002
+    100056: biped Spine002
+    100058: biped Tail004
+    100060: biped Tail005
+    100062: biped TailNub002
+    100064: biped002
+    100066: biped_bone00
+    100068: biped_bone01
+    100070: biped_bone02
+    100072: biped_bone03
+    100074: biped_bone04
+    100076: biped_bone06
+    100078: biped_bone07
+    100080: biped_bone09
+    100082: biped_bone12
+    100084: biped_bone13
+    100086: biped_bone14
+    100088: biped_bone15
+    100090: biped_bone16
+    100092: biped_bone17
+    100094: biped_bone20
+    100096: biped_bone21
+    100098: Particle View 002
+    100100: Particle View 003
+    100102: Particle View 01
+    100104: //RootNode
+    400000: An_Corbie002
+    400002: biped Footsteps002
+    400004: biped Head002
+    400006: biped HeadNub002
+    400008: biped L Calf002
+    400010: biped L Clavicle002
+    400012: biped L Finger002
+    400014: biped L Finger0Nub002
+    400016: biped L Foot002
+    400018: biped L Forearm002
+    400020: biped L Hand002
+    400022: biped L Thigh002
+    400024: biped L Toe002
+    400026: biped L Toe0Nub002
+    400028: biped L UpperArm002
+    400030: biped Neck002
+    400032: biped Pelvis002
+    400034: biped R Calf002
+    400036: biped R Clavicle002
+    400038: biped R Finger002
+    400040: biped R Finger0Nub002
+    400042: biped R Foot002
+    400044: biped R Forearm002
+    400046: biped R Hand002
+    400048: biped R Thigh002
+    400050: biped R Toe002
+    400052: biped R Toe0Nub002
+    400054: biped R UpperArm002
+    400056: biped Spine002
+    400058: biped Tail004
+    400060: biped Tail005
+    400062: biped TailNub002
+    400064: biped002
+    400066: biped_bone00
+    400068: biped_bone01
+    400070: biped_bone02
+    400072: biped_bone03
+    400074: biped_bone04
+    400076: biped_bone06
+    400078: biped_bone07
+    400080: biped_bone09
+    400082: biped_bone12
+    400084: biped_bone13
+    400086: biped_bone14
+    400088: biped_bone15
+    400090: biped_bone16
+    400092: biped_bone17
+    400094: biped_bone20
+    400096: biped_bone21
+    400098: Particle View 002
+    400100: Particle View 003
+    400102: Particle View 01
+    400104: //RootNode
+    4300000: An_Corbie002
+    7400000: stand
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: An_Corbie002
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    clipAnimations:
+    - name: stand
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 220
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      transformMask: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 2
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 2
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    handles: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  additionalBone: 1
+  animationType: 1
+  userData: 

@@ -1,0 +1,879 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100002
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400002}
+  m_Layer: 0
+  m_Name: BossView2
+  m_TagString: Untagged
+  m_Icon: {fileID: -2065832391, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100004
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400004}
+  - 114: {fileID: 11400000}
+  m_Layer: 2
+  m_Name: SpawnPoint03
+  m_TagString: Untagged
+  m_Icon: {fileID: 796366903, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100006
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400006}
+  m_Layer: 0
+  m_Name: BossView3
+  m_TagString: Untagged
+  m_Icon: {fileID: -2065832391, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100008
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400008}
+  - 114: {fileID: 11400002}
+  m_Layer: 2
+  m_Name: SpawnPoint01
+  m_TagString: Untagged
+  m_Icon: {fileID: -1794265156, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100010
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400010}
+  - 114: {fileID: 11400004}
+  m_Layer: 2
+  m_Name: SpawnPoint01
+  m_TagString: Untagged
+  m_Icon: {fileID: -1794265156, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100014
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400014}
+  - 65: {fileID: 6500000}
+  - 114: {fileID: 11400008}
+  m_Layer: 2
+  m_Name: Boss-Diff0-003
+  m_TagString: Untagged
+  m_Icon: {fileID: -771928, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100016
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400016}
+  - 114: {fileID: 11400010}
+  m_Layer: 2
+  m_Name: SpawnPoint01
+  m_TagString: Untagged
+  m_Icon: {fileID: -1794265156, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100018
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400018}
+  - 114: {fileID: 11400012}
+  m_Layer: 2
+  m_Name: SpawnPoint01
+  m_TagString: Untagged
+  m_Icon: {fileID: -1794265156, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100020
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400020}
+  - 114: {fileID: 11400014}
+  m_Layer: 2
+  m_Name: SpawnPoint01
+  m_TagString: Untagged
+  m_Icon: {fileID: -1794265156, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100022
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400022}
+  - 114: {fileID: 11400016}
+  m_Layer: 2
+  m_Name: SpawnPoint03
+  m_TagString: Untagged
+  m_Icon: {fileID: 796366903, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100024
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400024}
+  - 114: {fileID: 11400018}
+  m_Layer: 2
+  m_Name: SpawnPoint_BOOS
+  m_TagString: Untagged
+  m_Icon: {fileID: 866134395, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100026
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400026}
+  m_Layer: 0
+  m_Name: BossView1
+  m_TagString: Untagged
+  m_Icon: {fileID: -2065832391, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400002
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100002}
+  m_LocalRotation: {x: .034899164, y: .00436065113, z: -.000152277295, w: .999381304}
+  m_LocalPosition: {x: 0, y: 2.0999999, z: -4.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 400014}
+  m_RootOrder: 2
+--- !u!4 &400004
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100004}
+  m_LocalRotation: {x: .000743549434, y: .958816469, z: .0025101814, w: -.284014344}
+  m_LocalPosition: {x: 2, y: .200000003, z: 3}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 400014}
+  m_RootOrder: 9
+--- !u!4 &400006
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100006}
+  m_LocalRotation: {x: .034899164, y: .00436065113, z: -.000152277295, w: .999381304}
+  m_LocalPosition: {x: 0, y: 2.20000005, z: -6}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 400014}
+  m_RootOrder: 1
+--- !u!4 &400008
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100008}
+  m_LocalRotation: {x: 0, y: .866025388, z: 0, w: -.50000006}
+  m_LocalPosition: {x: 2.9000001, y: .200000003, z: -3}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 400014}
+  m_RootOrder: 5
+--- !u!4 &400010
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100010}
+  m_LocalRotation: {x: -.0996839628, y: -.848639727, z: -.172657654, w: .489962429}
+  m_LocalPosition: {x: 5, y: .200000003, z: -3}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 400014}
+  m_RootOrder: 4
+--- !u!4 &400014
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100014}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 18.1108398, y: 0, z: -100}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 400026}
+  - {fileID: 400006}
+  - {fileID: 400002}
+  - {fileID: 400022}
+  - {fileID: 400010}
+  - {fileID: 400008}
+  - {fileID: 400020}
+  - {fileID: 400018}
+  - {fileID: 400016}
+  - {fileID: 400004}
+  - {fileID: 400024}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!4 &400016
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100016}
+  m_LocalRotation: {x: .00300322566, y: .819140851, z: -.00428905059, w: .573568583}
+  m_LocalPosition: {x: -4, y: .200000003, z: -3}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 400014}
+  m_RootOrder: 8
+--- !u!4 &400018
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100018}
+  m_LocalRotation: {x: .00180688314, y: .965902269, z: -.00674337894, w: .258812755}
+  m_LocalPosition: {x: -1.5, y: .200000003, z: -3}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 400014}
+  m_RootOrder: 7
+--- !u!4 &400020
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100020}
+  m_LocalRotation: {x: -3.81448984e-10, y: .999961913, z: -.00872653536, w: -4.37097221e-08}
+  m_LocalPosition: {x: .5, y: .200000003, z: -3}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 400014}
+  m_RootOrder: 6
+--- !u!4 &400022
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100022}
+  m_LocalRotation: {x: -.00347870984, y: .961250067, z: .00263380632, w: .275643557}
+  m_LocalPosition: {x: -2, y: .200000003, z: 3}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 400014}
+  m_RootOrder: 3
+--- !u!4 &400024
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100024}
+  m_LocalRotation: {x: 0, y: .99984771, z: 0, w: .0174523834}
+  m_LocalPosition: {x: 0, y: .200000003, z: 2}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 400014}
+  m_RootOrder: 10
+--- !u!4 &400026
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100026}
+  m_LocalRotation: {x: .034899164, y: .00436065113, z: -.000152277295, w: .999381304}
+  m_LocalPosition: {x: 0, y: 2, z: -3}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 400014}
+  m_RootOrder: 0
+--- !u!65 &6500000
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100014}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 16, y: 3, z: 10}
+  m_Center: {x: 0, y: 2, z: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100004}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ab1f7caf61d64ad79d80b7154119e1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Delay: 5
+  LoopTime: 3
+  TotalSpawn: 1
+  SpawnList:
+  - PoolIndex: 3
+    StartAction: N9110
+    Diff: 1
+    AIStatus: 0
+    Ratio: 10
+  Level: {fileID: 0}
+--- !u!114 &11400002
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100008}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ab1f7caf61d64ad79d80b7154119e1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Delay: 5.69999981
+  LoopTime: 3
+  TotalSpawn: 1
+  SpawnList:
+  - PoolIndex: 1
+    StartAction: N9110
+    Diff: 0
+    AIStatus: 0
+    Ratio: 10
+  Level: {fileID: 0}
+--- !u!114 &11400004
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100010}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ab1f7caf61d64ad79d80b7154119e1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Delay: 5.5
+  LoopTime: 3
+  TotalSpawn: 1
+  SpawnList:
+  - PoolIndex: 1
+    StartAction: N9110
+    Diff: 0
+    AIStatus: 0
+    Ratio: 10
+  Level: {fileID: 0}
+--- !u!114 &11400008
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100014}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81e36bd91d4994a5b93db98faac23a79, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waveCount: 6
+  waveCheck: 3
+  mTrigger: 0
+  ifLevelLoaedEnable: 0
+  screenFadeIndelay: 
+  TargetGameCell: {fileID: 0}
+  detectionList:
+  - Name: none
+    AllDie: 1
+    unitDieCount: 0
+    twoAnd: 0
+    passTime: 0
+    monsterType: 0
+    executionExList:
+    - delayTime: 0
+      executionOver: 0
+      type: 1
+      closeupId: 
+      playerPause: 1
+      cameraViewDuration: 0
+      cameraViewTo: 
+      cameraViewReturn: 0
+      waveCount: 0
+      waveCheck: 0
+      localPlayer: 0
+      unitId: 0
+      playAction: 
+      unitInfo: {fileID: 0}
+      activeObject: {fileID: 0}
+      active: 0
+      trigger: {fileID: 0}
+      triggerActive: 0
+      resetObject: {fileID: 0}
+      resetPlayer: 0
+      resetObjectName: 
+      targetObject: {fileID: 0}
+      dieNowType: 0
+      controlTargetId: 0
+      controlTargetObject: {fileID: 0}
+      animationClip: {fileID: 0}
+      animationObjName: 
+      animationObj: {fileID: 0}
+    - delayTime: 3
+      executionOver: 0
+      type: 1
+      closeupId: 
+      playerPause: 0
+      cameraViewDuration: 0
+      cameraViewTo: 
+      cameraViewReturn: 0
+      waveCount: 0
+      waveCheck: 0
+      localPlayer: 0
+      unitId: 0
+      playAction: 
+      unitInfo: {fileID: 0}
+      activeObject: {fileID: 0}
+      active: 0
+      trigger: {fileID: 0}
+      triggerActive: 0
+      resetObject: {fileID: 0}
+      resetPlayer: 0
+      resetObjectName: 
+      targetObject: {fileID: 0}
+      dieNowType: 0
+      controlTargetId: 0
+      controlTargetObject: {fileID: 0}
+      animationClip: {fileID: 0}
+      animationObjName: 
+      animationObj: {fileID: 0}
+    - delayTime: 3
+      executionOver: 0
+      type: 2
+      closeupId: 
+      playerPause: 0
+      cameraViewDuration: 1
+      cameraViewTo: 
+      cameraViewReturn: 1
+      waveCount: 0
+      waveCheck: 0
+      localPlayer: 0
+      unitId: 0
+      playAction: 
+      unitInfo: {fileID: 0}
+      activeObject: {fileID: 0}
+      active: 0
+      trigger: {fileID: 0}
+      triggerActive: 0
+      resetObject: {fileID: 0}
+      resetPlayer: 0
+      resetObjectName: 
+      targetObject: {fileID: 0}
+      dieNowType: 0
+      controlTargetId: 0
+      controlTargetObject: {fileID: 0}
+      animationClip: {fileID: 0}
+      animationObjName: 
+      animationObj: {fileID: 0}
+    - delayTime: 0
+      executionOver: 0
+      type: 0
+      closeupId: 40000
+      playerPause: 0
+      cameraViewDuration: 0
+      cameraViewTo: 
+      cameraViewReturn: 0
+      waveCount: 0
+      waveCheck: 0
+      localPlayer: 0
+      unitId: 0
+      playAction: 
+      unitInfo: {fileID: 0}
+      activeObject: {fileID: 0}
+      active: 0
+      trigger: {fileID: 0}
+      triggerActive: 0
+      resetObject: {fileID: 0}
+      resetPlayer: 0
+      resetObjectName: 
+      targetObject: {fileID: 0}
+      dieNowType: 0
+      controlTargetId: 0
+      controlTargetObject: {fileID: 0}
+      animationClip: {fileID: 0}
+      animationObjName: 
+      animationObj: {fileID: 0}
+    - delayTime: 0
+      executionOver: 0
+      type: 2
+      closeupId: 
+      playerPause: 0
+      cameraViewDuration: .00999999978
+      cameraViewTo: BossView1
+      cameraViewReturn: 0
+      waveCount: 0
+      waveCheck: 0
+      localPlayer: 0
+      unitId: 0
+      playAction: 
+      unitInfo: {fileID: 0}
+      activeObject: {fileID: 0}
+      active: 0
+      trigger: {fileID: 0}
+      triggerActive: 0
+      resetObject: {fileID: 0}
+      resetPlayer: 0
+      resetObjectName: 
+      targetObject: {fileID: 0}
+      dieNowType: 0
+      controlTargetId: 0
+      controlTargetObject: {fileID: 0}
+      animationClip: {fileID: 0}
+      animationObjName: 
+      animationObj: {fileID: 0}
+    - delayTime: 1
+      executionOver: 0
+      type: 2
+      closeupId: 
+      playerPause: 0
+      cameraViewDuration: 1
+      cameraViewTo: BossView2
+      cameraViewReturn: 0
+      waveCount: 0
+      waveCheck: 0
+      localPlayer: 0
+      unitId: 0
+      playAction: 
+      unitInfo: {fileID: 0}
+      activeObject: {fileID: 0}
+      active: 0
+      trigger: {fileID: 0}
+      triggerActive: 0
+      resetObject: {fileID: 0}
+      resetPlayer: 0
+      resetObjectName: 
+      targetObject: {fileID: 0}
+      dieNowType: 0
+      controlTargetId: 0
+      controlTargetObject: {fileID: 0}
+      animationClip: {fileID: 0}
+      animationObjName: 
+      animationObj: {fileID: 0}
+    - delayTime: 2
+      executionOver: 0
+      type: 2
+      closeupId: 
+      playerPause: 0
+      cameraViewDuration: 1
+      cameraViewTo: BossView3
+      cameraViewReturn: 0
+      waveCount: 0
+      waveCheck: 0
+      localPlayer: 0
+      unitId: 0
+      playAction: 
+      unitInfo: {fileID: 0}
+      activeObject: {fileID: 0}
+      active: 0
+      trigger: {fileID: 0}
+      triggerActive: 0
+      resetObject: {fileID: 0}
+      resetPlayer: 0
+      resetObjectName: 
+      targetObject: {fileID: 0}
+      dieNowType: 0
+      controlTargetId: 0
+      controlTargetObject: {fileID: 0}
+      animationClip: {fileID: 0}
+      animationObjName: 
+      animationObj: {fileID: 0}
+    - delayTime: 2.79999995
+      executionOver: 0
+      type: 0
+      closeupId: 40001
+      playerPause: 0
+      cameraViewDuration: 0
+      cameraViewTo: 
+      cameraViewReturn: 0
+      waveCount: 0
+      waveCheck: 0
+      localPlayer: 0
+      unitId: 0
+      playAction: 
+      unitInfo: {fileID: 0}
+      activeObject: {fileID: 0}
+      active: 0
+      trigger: {fileID: 0}
+      triggerActive: 0
+      resetObject: {fileID: 0}
+      resetPlayer: 0
+      resetObjectName: 
+      targetObject: {fileID: 0}
+      dieNowType: 0
+      controlTargetId: 0
+      controlTargetObject: {fileID: 0}
+      animationClip: {fileID: 0}
+      animationObjName: 
+      animationObj: {fileID: 0}
+  - Name: 
+    AllDie: 1
+    unitDieCount: 1
+    twoAnd: 1
+    passTime: 1
+    monsterType: 4
+    executionExList:
+    - delayTime: .200000003
+      executionOver: 0
+      type: 0
+      closeupId: 40200
+      playerPause: 0
+      cameraViewDuration: 0
+      cameraViewTo: 
+      cameraViewReturn: 0
+      waveCount: 0
+      waveCheck: 0
+      localPlayer: 0
+      unitId: 0
+      playAction: 
+      unitInfo: {fileID: 0}
+      activeObject: {fileID: 0}
+      active: 0
+      trigger: {fileID: 0}
+      triggerActive: 0
+      resetObject: {fileID: 0}
+      resetPlayer: 0
+      resetObjectName: 
+      targetObject: {fileID: 0}
+      dieNowType: 0
+      controlTargetId: 0
+      controlTargetObject: {fileID: 0}
+      animationClip: {fileID: 0}
+      animationObjName: 
+      animationObj: {fileID: 0}
+    - delayTime: .400000006
+      executionOver: 0
+      type: 0
+      closeupId: 40200
+      playerPause: 0
+      cameraViewDuration: 0
+      cameraViewTo: 
+      cameraViewReturn: 0
+      waveCount: 0
+      waveCheck: 0
+      localPlayer: 0
+      unitId: 0
+      playAction: 
+      unitInfo: {fileID: 0}
+      activeObject: {fileID: 0}
+      active: 0
+      trigger: {fileID: 0}
+      triggerActive: 0
+      resetObject: {fileID: 0}
+      resetPlayer: 0
+      resetObjectName: 
+      targetObject: {fileID: 0}
+      dieNowType: 0
+      controlTargetId: 0
+      controlTargetObject: {fileID: 0}
+      animationClip: {fileID: 0}
+      animationObjName: 
+      animationObj: {fileID: 0}
+    - delayTime: 1.60000002
+      executionOver: 0
+      type: 8
+      closeupId: 
+      playerPause: 0
+      cameraViewDuration: 0
+      cameraViewTo: 
+      cameraViewReturn: 0
+      waveCount: 0
+      waveCheck: 0
+      localPlayer: 0
+      unitId: 0
+      playAction: 
+      unitInfo: {fileID: 0}
+      activeObject: {fileID: 0}
+      active: 0
+      trigger: {fileID: 0}
+      triggerActive: 0
+      resetObject: {fileID: 0}
+      resetPlayer: 0
+      resetObjectName: 
+      targetObject: {fileID: 0}
+      dieNowType: 4
+      controlTargetId: 0
+      controlTargetObject: {fileID: 0}
+      animationClip: {fileID: 0}
+      animationObjName: 
+      animationObj: {fileID: 0}
+--- !u!114 &11400010
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100016}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ab1f7caf61d64ad79d80b7154119e1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Delay: 6.80000019
+  LoopTime: 3
+  TotalSpawn: 1
+  SpawnList:
+  - PoolIndex: 1
+    StartAction: N9110
+    Diff: 0
+    AIStatus: 0
+    Ratio: 10
+  Level: {fileID: 0}
+--- !u!114 &11400012
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100018}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ab1f7caf61d64ad79d80b7154119e1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Delay: 6.5
+  LoopTime: 3
+  TotalSpawn: 1
+  SpawnList:
+  - PoolIndex: 1
+    StartAction: N9110
+    Diff: 0
+    AIStatus: 0
+    Ratio: 10
+  Level: {fileID: 0}
+--- !u!114 &11400014
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100020}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ab1f7caf61d64ad79d80b7154119e1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Delay: 6
+  LoopTime: 3
+  TotalSpawn: 1
+  SpawnList:
+  - PoolIndex: 1
+    StartAction: N9110
+    Diff: 0
+    AIStatus: 0
+    Ratio: 10
+  Level: {fileID: 0}
+--- !u!114 &11400016
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100022}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ab1f7caf61d64ad79d80b7154119e1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Delay: 4.5
+  LoopTime: 3
+  TotalSpawn: 1
+  SpawnList:
+  - PoolIndex: 3
+    StartAction: N9110
+    Diff: 1
+    AIStatus: 0
+    Ratio: 10
+  Level: {fileID: 0}
+--- !u!114 &11400018
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100024}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ab1f7caf61d64ad79d80b7154119e1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Delay: 0
+  LoopTime: 3
+  TotalSpawn: 1
+  SpawnList:
+  - PoolIndex: 4
+    StartAction: N9110
+    Diff: 1
+    AIStatus: 0
+    Ratio: 10
+  Level: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100014}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

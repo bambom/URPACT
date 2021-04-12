@@ -1,0 +1,300 @@
+fileFormatVersion: 2
+guid: 61c59c440757da1438583da84dd34e9f
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: An_Corbie
+    100002: An_Corbie001
+    100004: biped
+    100006: biped Footsteps
+    100008: biped Footsteps001
+    100010: biped Head
+    100012: biped Head001
+    100014: biped HeadNub
+    100016: biped HeadNub001
+    100018: biped L Calf
+    100020: biped L Calf001
+    100022: biped L Clavicle
+    100024: biped L Clavicle001
+    100026: biped L Finger0
+    100028: biped L Finger001
+    100030: biped L Finger0Nub
+    100032: biped L Finger0Nub001
+    100034: biped L Foot
+    100036: biped L Foot001
+    100038: biped L Forearm
+    100040: biped L Forearm001
+    100042: biped L Hand
+    100044: biped L Hand001
+    100046: biped L Thigh
+    100048: biped L Thigh001
+    100050: biped L Toe0
+    100052: biped L Toe001
+    100054: biped L Toe0Nub
+    100056: biped L Toe0Nub001
+    100058: biped L UpperArm
+    100060: biped L UpperArm001
+    100062: biped Neck
+    100064: biped Neck001
+    100066: biped Pelvis
+    100068: biped Pelvis001
+    100070: biped R Calf
+    100072: biped R Calf001
+    100074: biped R Clavicle
+    100076: biped R Clavicle001
+    100078: biped R Finger0
+    100080: biped R Finger001
+    100082: biped R Finger0Nub
+    100084: biped R Finger0Nub001
+    100086: biped R Foot
+    100088: biped R Foot001
+    100090: biped R Forearm
+    100092: biped R Forearm001
+    100094: biped R Hand
+    100096: biped R Hand001
+    100098: biped R Thigh
+    100100: biped R Thigh001
+    100102: biped R Toe0
+    100104: biped R Toe001
+    100106: biped R Toe0Nub
+    100108: biped R Toe0Nub001
+    100110: biped R UpperArm
+    100112: biped R UpperArm001
+    100114: biped Spine
+    100116: biped Spine001
+    100118: biped Tail
+    100120: biped Tail002
+    100122: biped Tail003
+    100124: biped Tail1
+    100126: biped TailNub
+    100128: biped TailNub001
+    100130: biped001
+    100132: biped_bone00
+    100134: biped_bone01
+    100136: biped_bone02
+    100138: biped_bone022
+    100140: biped_bone023
+    100142: biped_bone024
+    100144: biped_bone025
+    100146: biped_bone026
+    100148: biped_bone027
+    100150: biped_bone028
+    100152: biped_bone029
+    100154: biped_bone03
+    100156: biped_bone030
+    100158: biped_bone031
+    100160: biped_bone032
+    100162: biped_bone033
+    100164: biped_bone034
+    100166: biped_bone035
+    100168: biped_bone036
+    100170: biped_bone037
+    100172: biped_bone04
+    100174: biped_bone06
+    100176: biped_bone07
+    100178: biped_bone09
+    100180: biped_bone12
+    100182: biped_bone13
+    100184: biped_bone14
+    100186: biped_bone15
+    100188: biped_bone16
+    100190: biped_bone17
+    100192: biped_bone20
+    100194: biped_bone21
+    100196: Cell2UD
+    100198: Particle View 002
+    100200: Particle View 01
+    100202: Point001
+    100204: Point004
+    100206: Point005
+    100208: Point006
+    100210: //RootNode
+    400000: An_Corbie
+    400002: An_Corbie001
+    400004: biped
+    400006: biped Footsteps
+    400008: biped Footsteps001
+    400010: biped Head
+    400012: biped Head001
+    400014: biped HeadNub
+    400016: biped HeadNub001
+    400018: biped L Calf
+    400020: biped L Calf001
+    400022: biped L Clavicle
+    400024: biped L Clavicle001
+    400026: biped L Finger0
+    400028: biped L Finger001
+    400030: biped L Finger0Nub
+    400032: biped L Finger0Nub001
+    400034: biped L Foot
+    400036: biped L Foot001
+    400038: biped L Forearm
+    400040: biped L Forearm001
+    400042: biped L Hand
+    400044: biped L Hand001
+    400046: biped L Thigh
+    400048: biped L Thigh001
+    400050: biped L Toe0
+    400052: biped L Toe001
+    400054: biped L Toe0Nub
+    400056: biped L Toe0Nub001
+    400058: biped L UpperArm
+    400060: biped L UpperArm001
+    400062: biped Neck
+    400064: biped Neck001
+    400066: biped Pelvis
+    400068: biped Pelvis001
+    400070: biped R Calf
+    400072: biped R Calf001
+    400074: biped R Clavicle
+    400076: biped R Clavicle001
+    400078: biped R Finger0
+    400080: biped R Finger001
+    400082: biped R Finger0Nub
+    400084: biped R Finger0Nub001
+    400086: biped R Foot
+    400088: biped R Foot001
+    400090: biped R Forearm
+    400092: biped R Forearm001
+    400094: biped R Hand
+    400096: biped R Hand001
+    400098: biped R Thigh
+    400100: biped R Thigh001
+    400102: biped R Toe0
+    400104: biped R Toe001
+    400106: biped R Toe0Nub
+    400108: biped R Toe0Nub001
+    400110: biped R UpperArm
+    400112: biped R UpperArm001
+    400114: biped Spine
+    400116: biped Spine001
+    400118: biped Tail
+    400120: biped Tail002
+    400122: biped Tail003
+    400124: biped Tail1
+    400126: biped TailNub
+    400128: biped TailNub001
+    400130: biped001
+    400132: biped_bone00
+    400134: biped_bone01
+    400136: biped_bone02
+    400138: biped_bone022
+    400140: biped_bone023
+    400142: biped_bone024
+    400144: biped_bone025
+    400146: biped_bone026
+    400148: biped_bone027
+    400150: biped_bone028
+    400152: biped_bone029
+    400154: biped_bone03
+    400156: biped_bone030
+    400158: biped_bone031
+    400160: biped_bone032
+    400162: biped_bone033
+    400164: biped_bone034
+    400166: biped_bone035
+    400168: biped_bone036
+    400170: biped_bone037
+    400172: biped_bone04
+    400174: biped_bone06
+    400176: biped_bone07
+    400178: biped_bone09
+    400180: biped_bone12
+    400182: biped_bone13
+    400184: biped_bone14
+    400186: biped_bone15
+    400188: biped_bone16
+    400190: biped_bone17
+    400192: biped_bone20
+    400194: biped_bone21
+    400196: Cell2UD
+    400198: Particle View 002
+    400200: Particle View 01
+    400202: Point001
+    400204: Point004
+    400206: Point005
+    400208: Point006
+    400210: //RootNode
+    2300000: Cell2UD
+    3300000: Cell2UD
+    4300000: Cell2UD
+    4300002: An_Corbie
+    4300004: An_Corbie001
+    7400000: stand
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: An_Corbie
+    13700002: An_Corbie001
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    clipAnimations:
+    - name: stand
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 500
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      transformMask: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 2
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 2
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    handles: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  additionalBone: 1
+  animationType: 1
+  userData: 

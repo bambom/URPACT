@@ -1,0 +1,137 @@
+fileFormatVersion: 2
+guid: 85b803d025cbfb747adffb77af310598
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: A_bu001
+    100002: A_bu002
+    100004: A_bu003
+    100006: A_qiang001
+    100008: A_qiang002
+    100010: A_shitou001
+    100012: //RootNode
+    100014: A_shitou002
+    100016: A_shitou003
+    100018: A_shitou004
+    100020: A_zhuzi001
+    100022: A_zhuzi002
+    100024: A_zhuzi003
+    100026: A_zhuzi004
+    100028: a_zhuzi005
+    100030: A_zhuzi006
+    400000: A_bu001
+    400002: A_bu002
+    400004: A_bu003
+    400006: A_qiang001
+    400008: A_qiang002
+    400010: A_shitou001
+    400012: //RootNode
+    400014: A_shitou002
+    400016: A_shitou003
+    400018: A_shitou004
+    400020: A_zhuzi001
+    400022: A_zhuzi002
+    400024: A_zhuzi003
+    400026: A_zhuzi004
+    400028: a_zhuzi005
+    400030: A_zhuzi006
+    2300000: A_bu001
+    2300002: A_bu002
+    2300004: A_bu003
+    2300006: A_qiang001
+    2300008: A_qiang002
+    2300010: A_shitou001
+    2300012: A_shitou002
+    2300014: A_shitou003
+    2300016: A_shitou004
+    2300018: A_zhuzi001
+    2300020: A_zhuzi002
+    2300022: A_zhuzi003
+    2300024: A_zhuzi004
+    2300026: a_zhuzi005
+    2300028: A_zhuzi006
+    2300030: //RootNode
+    3300000: A_bu001
+    3300002: A_bu002
+    3300004: A_bu003
+    3300006: A_qiang001
+    3300008: A_qiang002
+    3300010: A_shitou001
+    3300012: A_shitou002
+    3300014: A_shitou003
+    3300016: A_shitou004
+    3300018: A_zhuzi001
+    3300020: A_zhuzi002
+    3300022: A_zhuzi003
+    3300024: A_zhuzi004
+    3300026: a_zhuzi005
+    3300028: A_zhuzi006
+    3300030: //RootNode
+    4300000: A_zhuzi006
+    4300002: a_zhuzi005
+    4300004: A_zhuzi004
+    4300006: A_zhuzi003
+    4300008: A_zhuzi002
+    4300010: A_zhuzi001
+    4300012: A_qiang002
+    4300014: A_qiang001
+    4300016: A_shitou004
+    4300018: A_shitou003
+    4300020: A_shitou002
+    4300022: A_shitou001
+    4300024: A_bu003
+    4300026: A_bu002
+    4300028: A_bu001
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    handles: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  additionalBone: 1
+  animationType: 0
+  userData: 

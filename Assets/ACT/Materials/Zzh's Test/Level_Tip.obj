@@ -1,0 +1,20 @@
+# This file uses centimeters as units for non-parametric coordinates.
+
+mtllib Level_Tip.mtl
+g default
+v -0.395121 0.000000 0.395121
+v 0.390383 0.000000 0.395121
+v -0.395121 0.000000 -0.390383
+v 0.390383 0.000000 -0.390383
+vt 0.007465 0.007464
+vt 0.992536 0.007464
+vt 0.007465 0.992535
+vt 0.992536 0.992535
+vn 0.000000 -1.000000 0.000000
+vn 0.000000 -1.000000 0.000000
+vn 0.000000 -1.000000 0.000000
+vn 0.000000 -1.000000 0.000000
+s off
+g Level_Tip
+usemtl initialShadingGroup
+f 3/1/1 4/2/2 2/4/3 1/3/4

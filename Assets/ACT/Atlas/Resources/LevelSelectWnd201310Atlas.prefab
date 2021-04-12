@@ -1,0 +1,544 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: LevelSelectWnd201310Atlas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: 609b79e11805efd499c8c22a458cb60d, type: 2}
+  sprites:
+  - name: Button12_Checkpoint_Normal_03
+    outer:
+      serializedVersion: 2
+      x: 220
+      y: 173
+      width: 82
+      height: 83
+    inner:
+      serializedVersion: 2
+      x: 220
+      y: 173
+      width: 82
+      height: 83
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Button12_Checkpoint_Normal_04
+    outer:
+      serializedVersion: 2
+      x: 220
+      y: 89
+      width: 82
+      height: 83
+    inner:
+      serializedVersion: 2
+      x: 220
+      y: 89
+      width: 82
+      height: 83
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Button12_Checkpoint_Normal_05
+    outer:
+      serializedVersion: 2
+      x: 220
+      y: 5
+      width: 82
+      height: 83
+    inner:
+      serializedVersion: 2
+      x: 220
+      y: 5
+      width: 82
+      height: 83
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Button12_Checkpoint_Normal_06
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 200
+      width: 219
+      height: 56
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 200
+      width: 219
+      height: 56
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Button12_Checkpoint_Normal_07
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 143
+      width: 219
+      height: 56
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 143
+      width: 219
+      height: 56
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Button07_Skill_Lock_01
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 5
+      width: 69
+      height: 48
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 5
+      width: 69
+      height: 48
+    rotated: 0
+    paddingLeft: .0144927539
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Icon07_Battle_Levle_05
+    outer:
+      serializedVersion: 2
+      x: 140
+      y: 7
+      width: 46
+      height: 52
+    inner:
+      serializedVersion: 2
+      x: 140
+      y: 7
+      width: 46
+      height: 52
+    rotated: 0
+    paddingLeft: .0217391308
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Icon07_Battle_Levle_03
+    outer:
+      serializedVersion: 2
+      x: 181
+      y: 91
+      width: 38
+      height: 51
+    inner:
+      serializedVersion: 2
+      x: 181
+      y: 91
+      width: 38
+      height: 51
+    rotated: 0
+    paddingLeft: .105263159
+    paddingRight: .131578952
+    paddingTop: .0196078438
+    paddingBottom: 0
+  - name: Icon07_Battle_Levle_02
+    outer:
+      serializedVersion: 2
+      x: 92
+      y: 7
+      width: 47
+      height: 52
+    inner:
+      serializedVersion: 2
+      x: 92
+      y: 7
+      width: 47
+      height: 52
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Icon07_Battle_Levle_04
+    outer:
+      serializedVersion: 2
+      x: 303
+      y: 204
+      width: 42
+      height: 52
+    inner:
+      serializedVersion: 2
+      x: 303
+      y: 204
+      width: 42
+      height: 52
+    rotated: 0
+    paddingLeft: .0476190485
+    paddingRight: .0714285746
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Icon07_Battle_Levle_01
+    outer:
+      serializedVersion: 2
+      x: 346
+      y: 204
+      width: 37
+      height: 52
+    inner:
+      serializedVersion: 2
+      x: 346
+      y: 204
+      width: 37
+      height: 52
+    rotated: 0
+    paddingLeft: .135135129
+    paddingRight: .135135129
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Window15_Select_Window_01
+    outer:
+      serializedVersion: 2
+      x: 70
+      y: 37
+      width: 16
+      height: 16
+    inner:
+      serializedVersion: 2
+      x: 70
+      y: 37
+      width: 16
+      height: 16
+    rotated: 0
+    paddingLeft: .0625
+    paddingRight: .9375
+    paddingTop: .9375
+    paddingBottom: .0625
+  - name: Button12_Checkpoint_Normal_08
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 54
+      width: 91
+      height: 88
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 54
+      width: 91
+      height: 88
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Button01_Item_01
+    outer:
+      serializedVersion: 2
+      x: 423
+      y: 221
+      width: 35
+      height: 35
+    inner:
+      serializedVersion: 2
+      x: 423
+      y: 221
+      width: 35
+      height: 35
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Button01_Shoulder_01
+    outer:
+      serializedVersion: 2
+      x: 375
+      y: 168
+      width: 34
+      height: 35
+    inner:
+      serializedVersion: 2
+      x: 375
+      y: 168
+      width: 34
+      height: 35
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: .0294117648
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Button01_Helmet_01
+    outer:
+      serializedVersion: 2
+      x: 459
+      y: 221
+      width: 35
+      height: 35
+    inner:
+      serializedVersion: 2
+      x: 459
+      y: 221
+      width: 35
+      height: 35
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Button01_Accessory_01
+    outer:
+      serializedVersion: 2
+      x: 303
+      y: 168
+      width: 35
+      height: 35
+    inner:
+      serializedVersion: 2
+      x: 303
+      y: 168
+      width: 35
+      height: 35
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Button01_Diamond_01
+    outer:
+      serializedVersion: 2
+      x: 303
+      y: 132
+      width: 35
+      height: 35
+    inner:
+      serializedVersion: 2
+      x: 303
+      y: 132
+      width: 35
+      height: 35
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Button01_Bracers_01
+    outer:
+      serializedVersion: 2
+      x: 410
+      y: 168
+      width: 34
+      height: 35
+    inner:
+      serializedVersion: 2
+      x: 410
+      y: 168
+      width: 34
+      height: 35
+    rotated: 0
+    paddingLeft: .0294117648
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Button01_Rune_01
+    outer:
+      serializedVersion: 2
+      x: 303
+      y: 96
+      width: 35
+      height: 35
+    inner:
+      serializedVersion: 2
+      x: 303
+      y: 96
+      width: 35
+      height: 35
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Button01_Boots_01
+    outer:
+      serializedVersion: 2
+      x: 445
+      y: 168
+      width: 34
+      height: 35
+    inner:
+      serializedVersion: 2
+      x: 445
+      y: 168
+      width: 34
+      height: 35
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: .0294117648
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Button01_Weapon_01
+    outer:
+      serializedVersion: 2
+      x: 303
+      y: 60
+      width: 35
+      height: 35
+    inner:
+      serializedVersion: 2
+      x: 303
+      y: 60
+      width: 35
+      height: 35
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Button01_Armor_01
+    outer:
+      serializedVersion: 2
+      x: 303
+      y: 24
+      width: 35
+      height: 35
+    inner:
+      serializedVersion: 2
+      x: 303
+      y: 24
+      width: 35
+      height: 35
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Button01_Medicine_01
+    outer:
+      serializedVersion: 2
+      x: 339
+      y: 168
+      width: 35
+      height: 35
+    inner:
+      serializedVersion: 2
+      x: 339
+      y: 168
+      width: 35
+      height: 35
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Window02_Quest_Around_02
+    outer:
+      serializedVersion: 2
+      x: 92
+      y: 60
+      width: 88
+      height: 82
+    inner:
+      serializedVersion: 2
+      x: 132
+      y: 100
+      width: 8
+      height: 2
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Icon01_System_Gs_01
+    outer:
+      serializedVersion: 2
+      x: 384
+      y: 214
+      width: 38
+      height: 42
+    inner:
+      serializedVersion: 2
+      x: 384
+      y: 214
+      width: 38
+      height: 42
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Button18_Mail_Close_01
+    outer:
+      serializedVersion: 2
+      x: 181
+      y: 61
+      width: 29
+      height: 29
+    inner:
+      serializedVersion: 2
+      x: 181
+      y: 61
+      width: 29
+      height: 29
+    rotated: 0
+    paddingLeft: .068965517
+    paddingRight: .068965517
+    paddingTop: .068965517
+    paddingBottom: .068965517
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

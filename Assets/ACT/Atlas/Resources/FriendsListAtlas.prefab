@@ -1,0 +1,418 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: FriendsListAtlas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: 83a09b6ef32f04041bd635b10c4a748c, type: 2}
+  sprites:
+  - name: Button21_Attack_Job_02
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 327
+      width: 69
+      height: 69
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 327
+      width: 69
+      height: 69
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Button21_Attack_Job_03
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 257
+      width: 69
+      height: 69
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 257
+      width: 69
+      height: 69
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Button21_Attack_Job_01
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 187
+      width: 69
+      height: 69
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 187
+      width: 69
+      height: 69
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Window05_Ranking_Choose_01
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 481
+      width: 221
+      height: 31
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 481
+      width: 221
+      height: 31
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Button15_MenuRank_Normal_01
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 397
+      width: 80
+      height: 83
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 397
+      width: 80
+      height: 83
+    rotated: 0
+    paddingLeft: .0500000007
+    paddingRight: .075000003
+    paddingTop: .0843373463
+    paddingBottom: 0
+  - name: Button15_MenuFriend_Normal_01
+    outer:
+      serializedVersion: 2
+      x: 81
+      y: 423
+      width: 90
+      height: 57
+    inner:
+      serializedVersion: 2
+      x: 81
+      y: 423
+      width: 90
+      height: 57
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: .350877196
+    paddingBottom: .22807017
+  - name: Button01_Normal_03
+    outer:
+      serializedVersion: 2
+      x: 172
+      y: 437
+      width: 89
+      height: 43
+    inner:
+      serializedVersion: 2
+      x: 172
+      y: 437
+      width: 89
+      height: 43
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Button17_Chat_Delete_02
+    outer:
+      serializedVersion: 2
+      x: 262
+      y: 437
+      width: 89
+      height: 43
+    inner:
+      serializedVersion: 2
+      x: 265
+      y: 437
+      width: 83
+      height: 43
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Button17_Chat_Chat_01
+    outer:
+      serializedVersion: 2
+      x: 222
+      y: 482
+      width: 23
+      height: 22
+    inner:
+      serializedVersion: 2
+      x: 222
+      y: 482
+      width: 23
+      height: 22
+    rotated: 0
+    paddingLeft: .0869565234
+    paddingRight: .0869565234
+    paddingTop: .13636364
+    paddingBottom: .0909090936
+  - name: Button17_Chat_Chat_03
+    outer:
+      serializedVersion: 2
+      x: 352
+      y: 437
+      width: 59
+      height: 43
+    inner:
+      serializedVersion: 2
+      x: 352
+      y: 437
+      width: 59
+      height: 43
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Button17_Chat_Friend_01
+    outer:
+      serializedVersion: 2
+      x: 495
+      y: 486
+      width: 15
+      height: 26
+    inner:
+      serializedVersion: 2
+      x: 495
+      y: 486
+      width: 15
+      height: 26
+    rotated: 0
+    paddingLeft: .400000006
+    paddingRight: .400000006
+    paddingTop: .0384615399
+    paddingBottom: 0
+  - name: Button17_Chat_Delete_01
+    outer:
+      serializedVersion: 2
+      x: 246
+      y: 483
+      width: 22
+      height: 21
+    inner:
+      serializedVersion: 2
+      x: 246
+      y: 483
+      width: 22
+      height: 21
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Window07_Mail_Sent_01
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 144
+      width: 77
+      height: 42
+    inner:
+      serializedVersion: 2
+      x: 4
+      y: 144
+      width: 69
+      height: 42
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Button17_Chat_Ifo_01
+    outer:
+      serializedVersion: 2
+      x: 474
+      y: 486
+      width: 20
+      height: 26
+    inner:
+      serializedVersion: 2
+      x: 474
+      y: 486
+      width: 20
+      height: 26
+    rotated: 0
+    paddingLeft: .150000006
+    paddingRight: .200000003
+    paddingTop: 0
+    paddingBottom: .0384615399
+  - name: Window07_Mail_Sent_02
+    outer:
+      serializedVersion: 2
+      x: 222
+      y: 505
+      width: 221
+      height: 7
+    inner:
+      serializedVersion: 2
+      x: 222
+      y: 505
+      width: 221
+      height: 7
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: .571428597
+  - name: Window10_PlayerInfo_Bottom_01
+    outer:
+      serializedVersion: 2
+      x: 444
+      y: 483
+      width: 29
+      height: 29
+    inner:
+      serializedVersion: 2
+      x: 444
+      y: 483
+      width: 29
+      height: 29
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Window10_PlayerInfo_Bottom_02
+    outer:
+      serializedVersion: 2
+      x: 81
+      y: 128
+      width: 11
+      height: 294
+    inner:
+      serializedVersion: 2
+      x: 81
+      y: 128
+      width: 11
+      height: 294
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Button06_DesChange_01
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 87
+      width: 56
+      height: 56
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 87
+      width: 56
+      height: 56
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Button06_DesChange_02
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 30
+      width: 56
+      height: 56
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 30
+      width: 56
+      height: 56
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Window20_Ranking_Next_01
+    outer:
+      serializedVersion: 2
+      x: 412
+      y: 441
+      width: 52
+      height: 39
+    inner:
+      serializedVersion: 2
+      x: 412
+      y: 441
+      width: 52
+      height: 39
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

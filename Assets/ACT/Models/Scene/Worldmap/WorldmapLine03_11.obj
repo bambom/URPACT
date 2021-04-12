@@ -1,0 +1,20 @@
+# This file uses centimeters as units for non-parametric coordinates.
+
+mtllib WorldmapLine03_11.mtl
+g default
+v -4.402205 2.292346 -8.511472
+v -4.338104 2.277024 -8.712365
+v -5.984859 2.321091 -9.179845
+v -5.890152 2.306158 -9.379096
+vt 0.901761 0.000601
+vt 0.949750 0.000601
+vt 0.949750 0.999837
+vt 0.901761 0.999837
+vn 0.047112 0.997653 -0.049695
+vn 0.008291 0.997949 -0.063476
+vn 0.047112 0.997653 -0.049695
+vn 0.008291 0.997949 -0.063476
+s off
+g WorldmapLine03_11 WorldmapLine03
+usemtl blinn1SG
+f 3/1/1 1/2/2 2/3/3 4/4/4

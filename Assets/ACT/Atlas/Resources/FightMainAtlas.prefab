@@ -1,0 +1,490 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: FightMainAtlas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: 5e5482249fb045a488534f44cb55cbf2, type: 2}
+  sprites:
+  - name: Window05_Blood_Around_01
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 401
+      width: 371
+      height: 111
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 401
+      width: 371
+      height: 111
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Window05_Blood_Bottom_01
+    outer:
+      serializedVersion: 2
+      x: 489
+      y: 476
+      width: 12
+      height: 18
+    inner:
+      serializedVersion: 2
+      x: 489
+      y: 476
+      width: 12
+      height: 18
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Window05_Blood_Blood_01
+    outer:
+      serializedVersion: 2
+      x: 79
+      y: 61
+      width: 62
+      height: 17
+    inner:
+      serializedVersion: 2
+      x: 89
+      y: 63
+      width: 32
+      height: 13
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Window05_Blood_Soul_01
+    outer:
+      serializedVersion: 2
+      x: 79
+      y: 45
+      width: 60
+      height: 15
+    inner:
+      serializedVersion: 2
+      x: 89
+      y: 47
+      width: 30
+      height: 11
+    rotated: 0
+    paddingLeft: .0166666675
+    paddingRight: .0166666675
+    paddingTop: .0666666701
+    paddingBottom: .0666666701
+  - name: Window05_Blood_Soul_02
+    outer:
+      serializedVersion: 2
+      x: 92
+      y: 159
+      width: 23
+      height: 9
+    inner:
+      serializedVersion: 2
+      x: 95
+      y: 159
+      width: 17
+      height: 9
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Button21_Attack_Attack_01
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 169
+      width: 142
+      height: 137
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 169
+      width: 142
+      height: 137
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Button21_Attack_Blastkill_01
+    outer:
+      serializedVersion: 2
+      x: 372
+      y: 405
+      width: 116
+      height: 107
+    inner:
+      serializedVersion: 2
+      x: 372
+      y: 405
+      width: 116
+      height: 107
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Button21_Attack_Jobskill_01
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 79
+      width: 91
+      height: 89
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 79
+      width: 91
+      height: 89
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Button21_Attack_Jobskill_02
+    outer:
+      serializedVersion: 2
+      x: 407
+      y: 307
+      width: 95
+      height: 93
+    inner:
+      serializedVersion: 2
+      x: 407
+      y: 307
+      width: 95
+      height: 93
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Button22_Attack_Medicine_01
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 2
+      width: 78
+      height: 76
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 2
+      width: 78
+      height: 76
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Button21_Attack_Jobskill_03
+    outer:
+      serializedVersion: 2
+      x: 323
+      y: 220
+      width: 86
+      height: 86
+    inner:
+      serializedVersion: 2
+      x: 323
+      y: 220
+      width: 86
+      height: 86
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Window05_Blood_Bottom_02
+    outer:
+      serializedVersion: 2
+      x: 489
+      y: 495
+      width: 15
+      height: 17
+    inner:
+      serializedVersion: 2
+      x: 489
+      y: 495
+      width: 15
+      height: 17
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Button16_Skill_Equip_02
+    outer:
+      serializedVersion: 2
+      x: 410
+      y: 224
+      width: 83
+      height: 82
+    inner:
+      serializedVersion: 2
+      x: 410
+      y: 224
+      width: 83
+      height: 82
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Button16_Skill_Equip_01
+    outer:
+      serializedVersion: 2
+      x: 234
+      y: 145
+      width: 72
+      height: 72
+    inner:
+      serializedVersion: 2
+      x: 234
+      y: 145
+      width: 72
+      height: 72
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Window09_Boss_Blood_02
+    outer:
+      serializedVersion: 2
+      x: 307
+      y: 129
+      width: 161
+      height: 18
+    inner:
+      serializedVersion: 2
+      x: 307
+      y: 129
+      width: 161
+      height: 18
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Window09_Boss_Blood_01
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 307
+      width: 406
+      height: 93
+    inner:
+      serializedVersion: 2
+      x: 190
+      y: 307
+      width: 6
+      height: 93
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Button20_Battle_Stop_01
+    outer:
+      serializedVersion: 2
+      x: 377
+      y: 150
+      width: 67
+      height: 67
+    inner:
+      serializedVersion: 2
+      x: 377
+      y: 150
+      width: 67
+      height: 67
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Button21_Attack_Job_03
+    outer:
+      serializedVersion: 2
+      x: 234
+      y: 75
+      width: 69
+      height: 69
+    inner:
+      serializedVersion: 2
+      x: 234
+      y: 75
+      width: 69
+      height: 69
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Button21_Attack_Job_01
+    outer:
+      serializedVersion: 2
+      x: 234
+      y: 5
+      width: 69
+      height: 69
+    inner:
+      serializedVersion: 2
+      x: 234
+      y: 5
+      width: 69
+      height: 69
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Button21_Attack_Job_02
+    outer:
+      serializedVersion: 2
+      x: 307
+      y: 148
+      width: 69
+      height: 69
+    inner:
+      serializedVersion: 2
+      x: 307
+      y: 148
+      width: 69
+      height: 69
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Button25_Attack_Warrior_01
+    outer:
+      serializedVersion: 2
+      x: 143
+      y: 129
+      width: 88
+      height: 88
+    inner:
+      serializedVersion: 2
+      x: 143
+      y: 129
+      width: 88
+      height: 88
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Button25_Attack_Wizard_01
+    outer:
+      serializedVersion: 2
+      x: 143
+      y: 40
+      width: 88
+      height: 88
+    inner:
+      serializedVersion: 2
+      x: 143
+      y: 40
+      width: 88
+      height: 88
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Button25_Attack_Assassin_01
+    outer:
+      serializedVersion: 2
+      x: 234
+      y: 218
+      width: 88
+      height: 88
+    inner:
+      serializedVersion: 2
+      x: 234
+      y: 218
+      width: 88
+      height: 88
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Button21_Attack_Attack_04
+    outer:
+      serializedVersion: 2
+      x: 143
+      y: 218
+      width: 90
+      height: 88
+    inner:
+      serializedVersion: 2
+      x: 143
+      y: 218
+      width: 90
+      height: 88
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: .0227272734
+    paddingBottom: 0
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

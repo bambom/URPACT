@@ -1,0 +1,364 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: SkillAtlas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: e3030ad28e7ff344982cbba5819c01d3, type: 2}
+  sprites:
+  - name: Button13_SkillStep_Open_01
+    outer:
+      serializedVersion: 2
+      x: 345
+      y: 9
+      width: 63
+      height: 63
+    inner:
+      serializedVersion: 2
+      x: 345
+      y: 9
+      width: 63
+      height: 63
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Button13_SkillStep_Close_01
+    outer:
+      serializedVersion: 2
+      x: 456
+      y: 219
+      width: 63
+      height: 63
+    inner:
+      serializedVersion: 2
+      x: 456
+      y: 219
+      width: 63
+      height: 63
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Button14_SkillRune_Bottom_01
+    outer:
+      serializedVersion: 2
+      x: 408
+      y: 36
+      width: 36
+      height: 36
+    inner:
+      serializedVersion: 2
+      x: 408
+      y: 36
+      width: 36
+      height: 36
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Button16_Skill_Equip_01
+    outer:
+      serializedVersion: 2
+      x: 345
+      y: 140
+      width: 72
+      height: 72
+    inner:
+      serializedVersion: 2
+      x: 345
+      y: 140
+      width: 72
+      height: 72
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Button21_Attack_Jobskill_02
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 4
+      width: 95
+      height: 93
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 4
+      width: 95
+      height: 93
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: .0107526882
+    paddingBottom: .0107526882
+  - name: Button21_Attack_Jobskill_03
+    outer:
+      serializedVersion: 2
+      x: 230
+      y: 16
+      width: 88
+      height: 89
+    inner:
+      serializedVersion: 2
+      x: 230
+      y: 16
+      width: 88
+      height: 89
+    rotated: 0
+    paddingLeft: .0227272734
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: .0112359552
+  - name: Button21_Attack_Blastkill_01
+    outer:
+      serializedVersion: 2
+      x: 230
+      y: 105
+      width: 115
+      height: 107
+    inner:
+      serializedVersion: 2
+      x: 230
+      y: 105
+      width: 115
+      height: 107
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: .00869565178
+    paddingTop: .0467289723
+    paddingBottom: .0373831764
+  - name: Button21_Attack_Jobskill_01
+    outer:
+      serializedVersion: 2
+      x: 115
+      y: 4
+      width: 95
+      height: 93
+    inner:
+      serializedVersion: 2
+      x: 115
+      y: 4
+      width: 95
+      height: 93
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: .0107526882
+    paddingBottom: .0107526882
+  - name: Button07_Skill_Rune_01
+    outer:
+      serializedVersion: 2
+      x: 414
+      y: 99
+      width: 41
+      height: 41
+    inner:
+      serializedVersion: 2
+      x: 414
+      y: 99
+      width: 41
+      height: 41
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Button07_Skill_Choose_02
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 97
+      width: 115
+      height: 115
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 97
+      width: 115
+      height: 115
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Button07_Skill_Choose_01
+    outer:
+      serializedVersion: 2
+      x: 115
+      y: 97
+      width: 115
+      height: 115
+    inner:
+      serializedVersion: 2
+      x: 115
+      y: 97
+      width: 115
+      height: 115
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Button07_Skill_Rune_02
+    outer:
+      serializedVersion: 2
+      x: 345
+      y: 72
+      width: 69
+      height: 68
+    inner:
+      serializedVersion: 2
+      x: 345
+      y: 72
+      width: 69
+      height: 68
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Button07_Skill_Lock_01
+    outer:
+      serializedVersion: 2
+      x: 519
+      y: 234
+      width: 69
+      height: 48
+    inner:
+      serializedVersion: 2
+      x: 519
+      y: 234
+      width: 69
+      height: 48
+    rotated: 0
+    paddingLeft: .0144927539
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Window02_Quest_Reward_01
+    outer:
+      serializedVersion: 2
+      x: 588
+      y: 249
+      width: 56
+      height: 33
+    inner:
+      serializedVersion: 2
+      x: 603
+      y: 264
+      width: 26
+      height: 3
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Icon01_System_Sp_01
+    outer:
+      serializedVersion: 2
+      x: 417
+      y: 170
+      width: 38
+      height: 42
+    inner:
+      serializedVersion: 2
+      x: 417
+      y: 170
+      width: 38
+      height: 42
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Window04_Skill_Bottom_02
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 212
+      width: 456
+      height: 300
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 212
+      width: 456
+      height: 300
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Window04_Skill_Bottom_01
+    outer:
+      serializedVersion: 2
+      x: 456
+      y: 282
+      width: 220
+      height: 230
+    inner:
+      serializedVersion: 2
+      x: 456
+      y: 282
+      width: 220
+      height: 230
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

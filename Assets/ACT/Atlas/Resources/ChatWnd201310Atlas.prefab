@@ -1,0 +1,310 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: ChatWnd201310Atlas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: 76930edfddb07384ca952305b91279fc, type: 2}
+  sprites:
+  - name: Button17_Chat_Chat_01
+    outer:
+      serializedVersion: 2
+      x: 126
+      y: 20
+      width: 23
+      height: 22
+    inner:
+      serializedVersion: 2
+      x: 126
+      y: 20
+      width: 23
+      height: 22
+    rotated: 0
+    paddingLeft: .0869565234
+    paddingRight: .0869565234
+    paddingTop: .13636364
+    paddingBottom: .0909090936
+  - name: Button17_Chat_Chat_05
+    outer:
+      serializedVersion: 2
+      x: 205
+      y: 65
+      width: 21
+      height: 21
+    inner:
+      serializedVersion: 2
+      x: 205
+      y: 65
+      width: 21
+      height: 21
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Button17_Chat_Chat_04
+    outer:
+      serializedVersion: 2
+      x: 227
+      y: 66
+      width: 20
+      height: 20
+    inner:
+      serializedVersion: 2
+      x: 235
+      y: 74
+      width: 4
+      height: 4
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Button17_Chat_Chat_03
+    outer:
+      serializedVersion: 2
+      x: 90
+      y: 43
+      width: 59
+      height: 43
+    inner:
+      serializedVersion: 2
+      x: 90
+      y: 43
+      width: 59
+      height: 43
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Button17_Chat_Bottom_01
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 87
+      width: 200
+      height: 41
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 87
+      width: 200
+      height: 41
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Button17_Chat_Chat_02
+    outer:
+      serializedVersion: 2
+      x: 201
+      y: 88
+      width: 39
+      height: 40
+    inner:
+      serializedVersion: 2
+      x: 206
+      y: 93
+      width: 29
+      height: 30
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Button17_Chat_Friend_01
+    outer:
+      serializedVersion: 2
+      x: 173
+      y: 28
+      width: 15
+      height: 26
+    inner:
+      serializedVersion: 2
+      x: 173
+      y: 28
+      width: 15
+      height: 26
+    rotated: 0
+    paddingLeft: .400000006
+    paddingRight: .400000006
+    paddingTop: .0384615399
+    paddingBottom: 0
+  - name: Button17_Chat_Ifo_01
+    outer:
+      serializedVersion: 2
+      x: 67
+      y: 16
+      width: 20
+      height: 26
+    inner:
+      serializedVersion: 2
+      x: 67
+      y: 16
+      width: 20
+      height: 26
+    rotated: 0
+    paddingLeft: .150000006
+    paddingRight: .200000003
+    paddingTop: 0
+    paddingBottom: .0384615399
+  - name: Button17_Chat_Bottom_02
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 6
+      width: 66
+      height: 36
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 6
+      width: 66
+      height: 36
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Window06_Chat_Window_01
+    outer:
+      serializedVersion: 2
+      x: 150
+      y: 10
+      width: 22
+      height: 76
+    inner:
+      serializedVersion: 2
+      x: 160
+      y: 20
+      width: 2
+      height: 66
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Window03_Package_Around_03
+    outer:
+      serializedVersion: 2
+      x: 241
+      y: 117
+      width: 11
+      height: 11
+    inner:
+      serializedVersion: 2
+      x: 241
+      y: 117
+      width: 11
+      height: 11
+    rotated: 0
+    paddingLeft: .545454562
+    paddingRight: 1.90909088
+    paddingTop: .363636374
+    paddingBottom: 2.36363626
+  - name: Button04_Quest_Hook_02
+    outer:
+      serializedVersion: 2
+      x: 173
+      y: 55
+      width: 31
+      height: 31
+    inner:
+      serializedVersion: 2
+      x: 177
+      y: 58
+      width: 23
+      height: 25
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Button01_Normal_03
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 43
+      width: 89
+      height: 43
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 43
+      width: 89
+      height: 43
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Button04_Remind__03
+    outer:
+      serializedVersion: 2
+      x: 90
+      y: 7
+      width: 35
+      height: 35
+    inner:
+      serializedVersion: 2
+      x: 90
+      y: 7
+      width: 35
+      height: 35
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

@@ -1,0 +1,4360 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: ItemIconAtlas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: e403fe2a5a4ff964fa3c26efd6d0c2c4, type: 2}
+  sprites:
+  - name: Button08_EquipItem_Bottom_04
+    outer:
+      serializedVersion: 2
+      x: 441
+      y: 951
+      width: 64
+      height: 73
+    inner:
+      serializedVersion: 2
+      x: 441
+      y: 951
+      width: 64
+      height: 73
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Button08_EquipItem_Bottom_05
+    outer:
+      serializedVersion: 2
+      x: 259
+      y: 685
+      width: 57
+      height: 69
+    inner:
+      serializedVersion: 2
+      x: 259
+      y: 685
+      width: 57
+      height: 69
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Button08_EquipItem_Bottom_03
+    outer:
+      serializedVersion: 2
+      x: 259
+      y: 612
+      width: 54
+      height: 72
+    inner:
+      serializedVersion: 2
+      x: 259
+      y: 612
+      width: 54
+      height: 72
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Button08_EquipItem_Bottom_02
+    outer:
+      serializedVersion: 2
+      x: 961
+      y: 954
+      width: 57
+      height: 70
+    inner:
+      serializedVersion: 2
+      x: 961
+      y: 954
+      width: 57
+      height: 70
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Button08_EquipItem_Bottom_01
+    outer:
+      serializedVersion: 2
+      x: 372
+      y: 951
+      width: 68
+      height: 73
+    inner:
+      serializedVersion: 2
+      x: 372
+      y: 951
+      width: 68
+      height: 73
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Button08_EquipItem_Bottom_06
+    outer:
+      serializedVersion: 2
+      x: 378
+      y: 442
+      width: 61
+      height: 62
+    inner:
+      serializedVersion: 2
+      x: 378
+      y: 442
+      width: 61
+      height: 62
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Button08_EquipItem_Bottom_08
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 949
+      width: 77
+      height: 75
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 949
+      width: 77
+      height: 75
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Button08_EquipItem_Bottom_09
+    outer:
+      serializedVersion: 2
+      x: 259
+      y: 224
+      width: 57
+      height: 62
+    inner:
+      serializedVersion: 2
+      x: 259
+      y: 224
+      width: 57
+      height: 62
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Button08_EquipItem_Bottom_07
+    outer:
+      serializedVersion: 2
+      x: 303
+      y: 949
+      width: 68
+      height: 75
+    inner:
+      serializedVersion: 2
+      x: 303
+      y: 949
+      width: 68
+      height: 75
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Icon05_Item_Equip_20
+    outer:
+      serializedVersion: 2
+      x: 322
+      y: 755
+      width: 62
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 322
+      y: 755
+      width: 62
+      height: 64
+    rotated: 0
+    paddingLeft: .0161290318
+    paddingRight: .0161290318
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Icon05_Item_Equip_23
+    outer:
+      serializedVersion: 2
+      x: 259
+      y: 287
+      width: 57
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 259
+      y: 287
+      width: 57
+      height: 64
+    rotated: 0
+    paddingLeft: .0701754391
+    paddingRight: .0526315793
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Icon05_Item_Equip_81
+    outer:
+      serializedVersion: 2
+      x: 814
+      y: 517
+      width: 62
+      height: 53
+    inner:
+      serializedVersion: 2
+      x: 814
+      y: 517
+      width: 62
+      height: 53
+    rotated: 0
+    paddingLeft: .0161290318
+    paddingRight: .0161290318
+    paddingTop: .113207549
+    paddingBottom: .094339624
+  - name: Icon05_Item_Equip_27
+    outer:
+      serializedVersion: 2
+      x: 130
+      y: 169
+      width: 63
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 130
+      y: 169
+      width: 63
+      height: 64
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: .0158730168
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Icon05_Item_Equip_113
+    outer:
+      serializedVersion: 2
+      x: 730
+      y: 159
+      width: 42
+      height: 63
+    inner:
+      serializedVersion: 2
+      x: 730
+      y: 159
+      width: 42
+      height: 63
+    rotated: 0
+    paddingLeft: .214285716
+    paddingRight: .309523821
+    paddingTop: 0
+    paddingBottom: .0158730168
+  - name: Icon05_Item_Equip_01
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 104
+      width: 64
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 104
+      width: 64
+      height: 64
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Icon05_Item_Equip_58
+    outer:
+      serializedVersion: 2
+      x: 567
+      y: 691
+      width: 61
+      height: 63
+    inner:
+      serializedVersion: 2
+      x: 567
+      y: 691
+      width: 61
+      height: 63
+    rotated: 0
+    paddingLeft: .0163934417
+    paddingRight: .0327868834
+    paddingTop: .0158730168
+    paddingBottom: 0
+  - name: Icon05_Item_Equip_33
+    outer:
+      serializedVersion: 2
+      x: 617
+      y: 277
+      width: 45
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 617
+      y: 277
+      width: 45
+      height: 64
+    rotated: 0
+    paddingLeft: .311111122
+    paddingRight: .111111112
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Icon05_Item_Equip_04
+    outer:
+      serializedVersion: 2
+      x: 195
+      y: 170
+      width: 62
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 195
+      y: 170
+      width: 62
+      height: 64
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: .0322580636
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Icon05_Item_Equip_37
+    outer:
+      serializedVersion: 2
+      x: 832
+      y: 288
+      width: 49
+      height: 54
+    inner:
+      serializedVersion: 2
+      x: 832
+      y: 288
+      width: 49
+      height: 54
+    rotated: 0
+    paddingLeft: .163265303
+    paddingRight: .142857149
+    paddingTop: .129629627
+    paddingBottom: .055555556
+  - name: Icon05_Item_Equip_64
+    outer:
+      serializedVersion: 2
+      x: 619
+      y: 456
+      width: 58
+      height: 55
+    inner:
+      serializedVersion: 2
+      x: 619
+      y: 456
+      width: 58
+      height: 55
+    rotated: 0
+    paddingLeft: .0517241396
+    paddingRight: .0517241396
+    paddingTop: .109090909
+    paddingBottom: .0545454547
+  - name: Icon05_Item_Equip_105
+    outer:
+      serializedVersion: 2
+      x: 617
+      y: 101
+      width: 44
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 617
+      y: 101
+      width: 44
+      height: 64
+    rotated: 0
+    paddingLeft: .227272734
+    paddingRight: .227272734
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Icon05_Item_Equip_123
+    outer:
+      serializedVersion: 2
+      x: 378
+      y: 567
+      width: 62
+      height: 61
+    inner:
+      serializedVersion: 2
+      x: 378
+      y: 567
+      width: 62
+      height: 61
+    rotated: 0
+    paddingLeft: .0322580636
+    paddingRight: 0
+    paddingTop: .0163934417
+    paddingBottom: .0327868834
+  - name: Icon05_Item_Equip_44
+    outer:
+      serializedVersion: 2
+      x: 317
+      y: 433
+      width: 60
+      height: 62
+    inner:
+      serializedVersion: 2
+      x: 317
+      y: 433
+      width: 60
+      height: 62
+    rotated: 0
+    paddingLeft: .0166666675
+    paddingRight: .0500000007
+    paddingTop: .0161290318
+    paddingBottom: .0161290318
+  - name: Icon05_Item_Equip_114
+    outer:
+      serializedVersion: 2
+      x: 773
+      y: 228
+      width: 42
+      height: 58
+    inner:
+      serializedVersion: 2
+      x: 773
+      y: 228
+      width: 42
+      height: 58
+    rotated: 0
+    paddingLeft: .285714298
+    paddingRight: .238095239
+    paddingTop: .0517241396
+    paddingBottom: .0517241396
+  - name: Icon05_Item_Equip_73
+    outer:
+      serializedVersion: 2
+      x: 130
+      y: 104
+      width: 63
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 130
+      y: 104
+      width: 63
+      height: 64
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: .0158730168
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Icon05_Item_Equip_21
+    outer:
+      serializedVersion: 2
+      x: 712
+      y: 820
+      width: 63
+      height: 63
+    inner:
+      serializedVersion: 2
+      x: 712
+      y: 820
+      width: 63
+      height: 63
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: .0158730168
+    paddingTop: .0158730168
+    paddingBottom: 0
+  - name: Icon05_Item_Equip_110
+    outer:
+      serializedVersion: 2
+      x: 730
+      y: 223
+      width: 42
+      height: 63
+    inner:
+      serializedVersion: 2
+      x: 730
+      y: 223
+      width: 42
+      height: 63
+    rotated: 0
+    paddingLeft: .261904776
+    paddingRight: .261904776
+    paddingTop: .0158730168
+    paddingBottom: 0
+  - name: Icon05_Item_Equip_79
+    outer:
+      serializedVersion: 2
+      x: 195
+      y: 820
+      width: 64
+      height: 63
+    inner:
+      serializedVersion: 2
+      x: 195
+      y: 820
+      width: 64
+      height: 63
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: .0158730168
+  - name: Icon05_Item_Equip_124
+    outer:
+      serializedVersion: 2
+      x: 65
+      y: 104
+      width: 64
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 65
+      y: 104
+      width: 64
+      height: 64
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Icon05_Item_Equip_51
+    outer:
+      serializedVersion: 2
+      x: 942
+      y: 519
+      width: 64
+      height: 51
+    inner:
+      serializedVersion: 2
+      x: 942
+      y: 519
+      width: 64
+      height: 51
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: .0980392173
+    paddingBottom: .156862751
+  - name: Icon05_Item_Equip_103
+    outer:
+      serializedVersion: 2
+      x: 378
+      y: 318
+      width: 61
+      height: 61
+    inner:
+      serializedVersion: 2
+      x: 378
+      y: 318
+      width: 61
+      height: 61
+    rotated: 0
+    paddingLeft: .0163934417
+    paddingRight: .0327868834
+    paddingTop: .0163934417
+    paddingBottom: .0327868834
+  - name: Icon05_Item_Equip_32
+    outer:
+      serializedVersion: 2
+      x: 195
+      y: 690
+      width: 63
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 195
+      y: 690
+      width: 63
+      height: 64
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: .0158730168
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Icon05_Item_Equip_74
+    outer:
+      serializedVersion: 2
+      x: 441
+      y: 571
+      width: 64
+      height: 57
+    inner:
+      serializedVersion: 2
+      x: 441
+      y: 571
+      width: 64
+      height: 57
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: .122807018
+  - name: Icon05_Item_Equip_93
+    outer:
+      serializedVersion: 2
+      x: 830
+      y: 630
+      width: 62
+      height: 59
+    inner:
+      serializedVersion: 2
+      x: 830
+      y: 630
+      width: 62
+      height: 59
+    rotated: 0
+    paddingLeft: .0161290318
+    paddingRight: .0161290318
+    paddingTop: .0508474559
+    paddingBottom: .0338983051
+  - name: Icon05_Item_Equip_111
+    outer:
+      serializedVersion: 2
+      x: 730
+      y: 97
+      width: 42
+      height: 61
+    inner:
+      serializedVersion: 2
+      x: 730
+      y: 97
+      width: 42
+      height: 61
+    rotated: 0
+    paddingLeft: .238095239
+    paddingRight: .285714298
+    paddingTop: .0327868834
+    paddingBottom: .0163934417
+  - name: Icon05_Item_Equip_109
+    outer:
+      serializedVersion: 2
+      x: 681
+      y: 158
+      width: 43
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 681
+      y: 158
+      width: 43
+      height: 64
+    rotated: 0
+    paddingLeft: .232558146
+    paddingRight: .255813956
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Icon05_Item_Equip_77
+    outer:
+      serializedVersion: 2
+      x: 390
+      y: 884
+      width: 64
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 390
+      y: 884
+      width: 64
+      height: 64
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Icon05_Item_Equip_11
+    outer:
+      serializedVersion: 2
+      x: 455
+      y: 884
+      width: 64
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 455
+      y: 884
+      width: 64
+      height: 64
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Icon05_Item_Equip_97
+    outer:
+      serializedVersion: 2
+      x: 506
+      y: 571
+      width: 63
+      height: 57
+    inner:
+      serializedVersion: 2
+      x: 506
+      y: 571
+      width: 63
+      height: 57
+    rotated: 0
+    paddingLeft: .0158730168
+    paddingRight: 0
+    paddingTop: .0526315793
+    paddingBottom: .0701754391
+  - name: Icon05_Item_Equip_102
+    outer:
+      serializedVersion: 2
+      x: 755
+      y: 691
+      width: 61
+      height: 63
+    inner:
+      serializedVersion: 2
+      x: 755
+      y: 691
+      width: 61
+      height: 63
+    rotated: 0
+    paddingLeft: .0163934417
+    paddingRight: .0327868834
+    paddingTop: .0158730168
+    paddingBottom: 0
+  - name: Icon05_Item_Equip_91
+    outer:
+      serializedVersion: 2
+      x: 691
+      y: 693
+      width: 63
+      height: 61
+    inner:
+      serializedVersion: 2
+      x: 691
+      y: 693
+      width: 63
+      height: 61
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: .0158730168
+    paddingTop: .0491803288
+    paddingBottom: 0
+  - name: Icon05_Item_Equip_52
+    outer:
+      serializedVersion: 2
+      x: 317
+      y: 690
+      width: 61
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 317
+      y: 690
+      width: 61
+      height: 64
+    rotated: 0
+    paddingLeft: .0491803288
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Icon05_Item_Equip_48
+    outer:
+      serializedVersion: 2
+      x: 700
+      y: 756
+      width: 62
+      height: 63
+    inner:
+      serializedVersion: 2
+      x: 700
+      y: 756
+      width: 62
+      height: 63
+    rotated: 0
+    paddingLeft: .0322580636
+    paddingRight: 0
+    paddingTop: .0158730168
+    paddingBottom: 0
+  - name: Icon05_Item_Equip_31
+    outer:
+      serializedVersion: 2
+      x: 503
+      y: 196
+      width: 54
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 503
+      y: 196
+      width: 54
+      height: 64
+    rotated: 0
+    paddingLeft: .0925925896
+    paddingRight: .0925925896
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Icon05_Item_Equip_26
+    outer:
+      serializedVersion: 2
+      x: 845
+      y: 884
+      width: 64
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 845
+      y: 884
+      width: 64
+      height: 64
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Icon05_Item_Equip_18
+    outer:
+      serializedVersion: 2
+      x: 317
+      y: 370
+      width: 60
+      height: 62
+    inner:
+      serializedVersion: 2
+      x: 317
+      y: 370
+      width: 60
+      height: 62
+    rotated: 0
+    paddingLeft: .0500000007
+    paddingRight: .0166666675
+    paddingTop: .0322580636
+    paddingBottom: 0
+  - name: Icon05_Item_Equip_14
+    outer:
+      serializedVersion: 2
+      x: 511
+      y: 755
+      width: 62
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 511
+      y: 755
+      width: 62
+      height: 64
+    rotated: 0
+    paddingLeft: .0161290318
+    paddingRight: .0161290318
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Icon05_Item_Equip_78
+    outer:
+      serializedVersion: 2
+      x: 130
+      y: 754
+      width: 64
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 130
+      y: 754
+      width: 64
+      height: 64
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Icon05_Item_Equip_67
+    outer:
+      serializedVersion: 2
+      x: 503
+      y: 3
+      width: 52
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 503
+      y: 3
+      width: 52
+      height: 64
+    rotated: 0
+    paddingLeft: .115384616
+    paddingRight: .115384616
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Icon05_Item_Equip_12
+    outer:
+      serializedVersion: 2
+      x: 130
+      y: 624
+      width: 64
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 130
+      y: 624
+      width: 64
+      height: 64
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Icon05_Item_Equip_116
+    outer:
+      serializedVersion: 2
+      x: 773
+      y: 167
+      width: 40
+      height: 60
+    inner:
+      serializedVersion: 2
+      x: 773
+      y: 167
+      width: 40
+      height: 60
+    rotated: 0
+    paddingLeft: .300000012
+    paddingRight: .300000012
+    paddingTop: .0333333351
+    paddingBottom: .0333333351
+  - name: Icon05_Item_Equip_61
+    outer:
+      serializedVersion: 2
+      x: 566
+      y: 512
+      width: 60
+      height: 58
+    inner:
+      serializedVersion: 2
+      x: 566
+      y: 512
+      width: 60
+      height: 58
+    rotated: 0
+    paddingLeft: .0333333351
+    paddingRight: .0333333351
+    paddingTop: .0517241396
+    paddingBottom: .0517241396
+  - name: Icon05_Item_Equip_107
+    outer:
+      serializedVersion: 2
+      x: 562
+      y: 199
+      width: 52
+      height: 63
+    inner:
+      serializedVersion: 2
+      x: 562
+      y: 199
+      width: 52
+      height: 63
+    rotated: 0
+    paddingLeft: .134615391
+    paddingRight: .0961538479
+    paddingTop: .0158730168
+    paddingBottom: 0
+  - name: Icon05_Item_Equip_98
+    outer:
+      serializedVersion: 2
+      x: 378
+      y: 505
+      width: 62
+      height: 61
+    inner:
+      serializedVersion: 2
+      x: 378
+      y: 505
+      width: 62
+      height: 61
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: .0322580636
+    paddingTop: 0
+    paddingBottom: .0491803288
+  - name: Icon05_Item_Equip_82
+    outer:
+      serializedVersion: 2
+      x: 260
+      y: 820
+      width: 64
+      height: 63
+    inner:
+      serializedVersion: 2
+      x: 260
+      y: 820
+      width: 64
+      height: 63
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: .0158730168
+    paddingBottom: 0
+  - name: Icon05_Item_Equip_13
+    outer:
+      serializedVersion: 2
+      x: 574
+      y: 755
+      width: 62
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 574
+      y: 755
+      width: 62
+      height: 64
+    rotated: 0
+    paddingLeft: .0161290318
+    paddingRight: .0161290318
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Icon05_Item_Equip_03
+    outer:
+      serializedVersion: 2
+      x: 130
+      y: 364
+      width: 64
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 130
+      y: 364
+      width: 64
+      height: 64
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Icon05_Item_Equip_69
+    outer:
+      serializedVersion: 2
+      x: 681
+      y: 223
+      width: 46
+      height: 60
+    inner:
+      serializedVersion: 2
+      x: 681
+      y: 223
+      width: 46
+      height: 60
+    rotated: 0
+    paddingLeft: .195652172
+    paddingRight: .195652172
+    paddingTop: .0500000007
+    paddingBottom: .0166666675
+  - name: Icon05_Item_Equip_30
+    outer:
+      serializedVersion: 2
+      x: 637
+      y: 755
+      width: 62
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 637
+      y: 755
+      width: 62
+      height: 64
+    rotated: 0
+    paddingLeft: .0161290318
+    paddingRight: .0161290318
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Icon05_Item_Equip_85
+    outer:
+      serializedVersion: 2
+      x: 562
+      y: 11
+      width: 52
+      height: 61
+    inner:
+      serializedVersion: 2
+      x: 562
+      y: 11
+      width: 52
+      height: 61
+    rotated: 0
+    paddingLeft: .057692308
+    paddingRight: .173076928
+    paddingTop: .0327868834
+    paddingBottom: .0163934417
+  - name: Icon05_Item_Equip_28
+    outer:
+      serializedVersion: 2
+      x: 130
+      y: 234
+      width: 64
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 130
+      y: 234
+      width: 64
+      height: 64
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Icon05_Item_Equip_59
+    outer:
+      serializedVersion: 2
+      x: 701
+      y: 630
+      width: 63
+      height: 59
+    inner:
+      serializedVersion: 2
+      x: 701
+      y: 630
+      width: 63
+      height: 59
+    rotated: 0
+    paddingLeft: .0158730168
+    paddingRight: 0
+    paddingTop: .0847457647
+    paddingBottom: 0
+  - name: Icon05_Item_Equip_100
+    outer:
+      serializedVersion: 2
+      x: 572
+      y: 629
+      width: 63
+      height: 60
+    inner:
+      serializedVersion: 2
+      x: 572
+      y: 629
+      width: 63
+      height: 60
+    rotated: 0
+    paddingLeft: .0158730168
+    paddingRight: 0
+    paddingTop: .0500000007
+    paddingBottom: .0166666675
+  - name: Icon05_Item_Equip_38
+    outer:
+      serializedVersion: 2
+      x: 886
+      y: 574
+      width: 63
+      height: 54
+    inner:
+      serializedVersion: 2
+      x: 886
+      y: 574
+      width: 63
+      height: 54
+    rotated: 0
+    paddingLeft: .0158730168
+    paddingRight: 0
+    paddingTop: .111111112
+    paddingBottom: .0740740746
+  - name: Icon05_Item_Equip_89
+    outer:
+      serializedVersion: 2
+      x: 759
+      y: 573
+      width: 62
+      height: 55
+    inner:
+      serializedVersion: 2
+      x: 759
+      y: 573
+      width: 62
+      height: 55
+    rotated: 0
+    paddingLeft: .0161290318
+    paddingRight: .0161290318
+    paddingTop: .0727272704
+    paddingBottom: .0909090936
+  - name: Icon05_Item_Equip_35
+    outer:
+      serializedVersion: 2
+      x: 893
+      y: 632
+      width: 64
+      height: 57
+    inner:
+      serializedVersion: 2
+      x: 893
+      y: 632
+      width: 64
+      height: 57
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: .0701754391
+    paddingBottom: .0526315793
+  - name: Icon05_Item_Equip_50
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 234
+      width: 64
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 234
+      width: 64
+      height: 64
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Icon05_Item_Equip_29
+    outer:
+      serializedVersion: 2
+      x: 65
+      y: 689
+      width: 64
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 65
+      y: 689
+      width: 64
+      height: 64
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Icon05_Item_Equip_15
+    outer:
+      serializedVersion: 2
+      x: 259
+      y: 352
+      width: 57
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 259
+      y: 352
+      width: 57
+      height: 64
+    rotated: 0
+    paddingLeft: .0701754391
+    paddingRight: .0526315793
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Icon05_Item_Equip_36
+    outer:
+      serializedVersion: 2
+      x: 259
+      y: 98
+      width: 57
+      height: 61
+    inner:
+      serializedVersion: 2
+      x: 259
+      y: 98
+      width: 57
+      height: 61
+    rotated: 0
+    paddingLeft: .0877192989
+    paddingRight: .0350877196
+    paddingTop: .0163934417
+    paddingBottom: .0327868834
+  - name: Icon05_Item_Equip_106
+    outer:
+      serializedVersion: 2
+      x: 617
+      y: 166
+      width: 44
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 617
+      y: 166
+      width: 44
+      height: 64
+    rotated: 0
+    paddingLeft: .227272734
+    paddingRight: .227272734
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Icon05_Item_Equip_88
+    outer:
+      serializedVersion: 2
+      x: 259
+      y: 160
+      width: 56
+      height: 63
+    inner:
+      serializedVersion: 2
+      x: 259
+      y: 160
+      width: 56
+      height: 63
+    rotated: 0
+    paddingLeft: .0892857164
+    paddingRight: .0535714291
+    paddingTop: 0
+    paddingBottom: .0158730168
+  - name: Icon05_Item_Equip_119
+    outer:
+      serializedVersion: 2
+      x: 617
+      y: 39
+      width: 46
+      height: 61
+    inner:
+      serializedVersion: 2
+      x: 617
+      y: 39
+      width: 46
+      height: 61
+    rotated: 0
+    paddingLeft: .217391297
+    paddingRight: .173913047
+    paddingTop: .0327868834
+    paddingBottom: .0163934417
+  - name: Icon05_Item_Equip_10
+    outer:
+      serializedVersion: 2
+      x: 195
+      y: 365
+      width: 63
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 195
+      y: 365
+      width: 63
+      height: 64
+    rotated: 0
+    paddingLeft: .0158730168
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Icon05_Item_Equip_86
+    outer:
+      serializedVersion: 2
+      x: 635
+      y: 572
+      width: 62
+      height: 56
+    inner:
+      serializedVersion: 2
+      x: 635
+      y: 572
+      width: 62
+      height: 56
+    rotated: 0
+    paddingLeft: .0161290318
+    paddingRight: .0161290318
+    paddingTop: .0892857164
+    paddingBottom: .0535714291
+  - name: Icon05_Item_Equip_34
+    outer:
+      serializedVersion: 2
+      x: 503
+      y: 68
+      width: 53
+      height: 63
+    inner:
+      serializedVersion: 2
+      x: 503
+      y: 68
+      width: 53
+      height: 63
+    rotated: 0
+    paddingLeft: .0754716992
+    paddingRight: .132075474
+    paddingTop: .0158730168
+    paddingBottom: 0
+  - name: Icon05_Item_Equip_53
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 754
+      width: 64
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 754
+      width: 64
+      height: 64
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Icon05_Item_Equip_63
+    outer:
+      serializedVersion: 2
+      x: 562
+      y: 452
+      width: 56
+      height: 59
+    inner:
+      serializedVersion: 2
+      x: 562
+      y: 452
+      width: 56
+      height: 59
+    rotated: 0
+    paddingLeft: .0535714291
+    paddingRight: .0892857164
+    paddingTop: .0508474559
+    paddingBottom: .0338983051
+  - name: Icon05_Item_Equip_43
+    outer:
+      serializedVersion: 2
+      x: 259
+      y: 547
+      width: 57
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 259
+      y: 547
+      width: 57
+      height: 64
+    rotated: 0
+    paddingLeft: .0877192989
+    paddingRight: .0350877196
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Icon05_Item_Equip_57
+    outer:
+      serializedVersion: 2
+      x: 441
+      y: 88
+      width: 60
+      height: 58
+    inner:
+      serializedVersion: 2
+      x: 441
+      y: 88
+      width: 60
+      height: 58
+    rotated: 0
+    paddingLeft: .0333333351
+    paddingRight: .0333333351
+    paddingTop: .068965517
+    paddingBottom: .0344827585
+  - name: Icon05_Item_Equip_108
+    outer:
+      serializedVersion: 2
+      x: 681
+      y: 30
+      width: 43
+      height: 63
+    inner:
+      serializedVersion: 2
+      x: 681
+      y: 30
+      width: 43
+      height: 63
+    rotated: 0
+    paddingLeft: .232558146
+    paddingRight: .255813956
+    paddingTop: 0
+    paddingBottom: .0158730168
+  - name: Icon05_Item_Equip_80
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 364
+      width: 64
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 364
+      width: 64
+      height: 64
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Icon05_Item_Equip_87
+    outer:
+      serializedVersion: 2
+      x: 562
+      y: 390
+      width: 54
+      height: 61
+    inner:
+      serializedVersion: 2
+      x: 562
+      y: 390
+      width: 54
+      height: 61
+    rotated: 0
+    paddingLeft: .0740740746
+    paddingRight: .111111112
+    paddingTop: 0
+    paddingBottom: .0491803288
+  - name: Icon05_Item_Equip_117
+    outer:
+      serializedVersion: 2
+      x: 669
+      y: 389
+      width: 50
+      height: 62
+    inner:
+      serializedVersion: 2
+      x: 669
+      y: 389
+      width: 50
+      height: 62
+    rotated: 0
+    paddingLeft: .100000001
+    paddingRight: .180000007
+    paddingTop: .0161290318
+    paddingBottom: .0161290318
+  - name: Icon05_Item_Equip_83
+    outer:
+      serializedVersion: 2
+      x: 562
+      y: 136
+      width: 52
+      height: 62
+    inner:
+      serializedVersion: 2
+      x: 562
+      y: 136
+      width: 52
+      height: 62
+    rotated: 0
+    paddingLeft: .115384616
+    paddingRight: .115384616
+    paddingTop: .0161290318
+    paddingBottom: .0161290318
+  - name: Icon05_Item_Equip_68
+    outer:
+      serializedVersion: 2
+      x: 503
+      y: 326
+      width: 55
+      height: 63
+    inner:
+      serializedVersion: 2
+      x: 503
+      y: 326
+      width: 55
+      height: 63
+    rotated: 0
+    paddingLeft: .0909090936
+    paddingRight: .0727272704
+    paddingTop: .0158730168
+    paddingBottom: 0
+  - name: Icon05_Item_Equip_75
+    outer:
+      serializedVersion: 2
+      x: 65
+      y: 754
+      width: 64
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 65
+      y: 754
+      width: 64
+      height: 64
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Icon05_Item_Equip_104
+    outer:
+      serializedVersion: 2
+      x: 629
+      y: 691
+      width: 61
+      height: 63
+    inner:
+      serializedVersion: 2
+      x: 629
+      y: 691
+      width: 61
+      height: 63
+    rotated: 0
+    paddingLeft: .0163934417
+    paddingRight: .0327868834
+    paddingTop: 0
+    paddingBottom: .0158730168
+  - name: Icon05_Item_Equip_65
+    outer:
+      serializedVersion: 2
+      x: 259
+      y: 35
+      width: 56
+      height: 62
+    inner:
+      serializedVersion: 2
+      x: 259
+      y: 35
+      width: 56
+      height: 62
+    rotated: 0
+    paddingLeft: .0714285746
+    paddingRight: .0714285746
+    paddingTop: .0322580636
+    paddingBottom: 0
+  - name: Icon05_Item_Equip_19
+    outer:
+      serializedVersion: 2
+      x: 317
+      y: 176
+      width: 58
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 317
+      y: 176
+      width: 58
+      height: 64
+    rotated: 0
+    paddingLeft: .0344827585
+    paddingRight: .068965517
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Icon05_Item_Equip_05
+    outer:
+      serializedVersion: 2
+      x: 65
+      y: 494
+      width: 64
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 65
+      y: 494
+      width: 64
+      height: 64
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Icon05_Item_Health_02
+    outer:
+      serializedVersion: 2
+      x: 65
+      y: 429
+      width: 64
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 65
+      y: 429
+      width: 64
+      height: 64
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Icon05_Item_Equip_101
+    outer:
+      serializedVersion: 2
+      x: 503
+      y: 390
+      width: 58
+      height: 60
+    inner:
+      serializedVersion: 2
+      x: 503
+      y: 390
+      width: 58
+      height: 60
+    rotated: 0
+    paddingLeft: .0517241396
+    paddingRight: .0517241396
+    paddingTop: .0333333351
+    paddingBottom: .0333333351
+  - name: Icon05_Item_Equip_24
+    outer:
+      serializedVersion: 2
+      x: 317
+      y: 306
+      width: 59
+      height: 63
+    inner:
+      serializedVersion: 2
+      x: 317
+      y: 306
+      width: 59
+      height: 63
+    rotated: 0
+    paddingLeft: .0677966103
+    paddingRight: .0169491526
+    paddingTop: .0158730168
+    paddingBottom: 0
+  - name: Icon05_Item_Equip_16
+    outer:
+      serializedVersion: 2
+      x: 826
+      y: 755
+      width: 61
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 826
+      y: 755
+      width: 61
+      height: 64
+    rotated: 0
+    paddingLeft: .0491803288
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Icon05_Item_Equip_45
+    outer:
+      serializedVersion: 2
+      x: 441
+      y: 448
+      width: 58
+      height: 62
+    inner:
+      serializedVersion: 2
+      x: 441
+      y: 448
+      width: 58
+      height: 62
+    rotated: 0
+    paddingLeft: .0517241396
+    paddingRight: .0517241396
+    paddingTop: .0161290318
+    paddingBottom: .0161290318
+  - name: Icon05_Item_Equip_17
+    outer:
+      serializedVersion: 2
+      x: 503
+      y: 132
+      width: 54
+      height: 63
+    inner:
+      serializedVersion: 2
+      x: 503
+      y: 132
+      width: 54
+      height: 63
+    rotated: 0
+    paddingLeft: .0740740746
+    paddingRight: .111111112
+    paddingTop: 0
+    paddingBottom: .0158730168
+  - name: Icon05_Item_Equip_112
+    outer:
+      serializedVersion: 2
+      x: 681
+      y: 94
+      width: 43
+      height: 63
+    inner:
+      serializedVersion: 2
+      x: 681
+      y: 94
+      width: 43
+      height: 63
+    rotated: 0
+    paddingLeft: .232558146
+    paddingRight: .255813956
+    paddingTop: 0
+    paddingBottom: .0158730168
+  - name: Icon05_Item_Equip_92
+    outer:
+      serializedVersion: 2
+      x: 317
+      y: 113
+      width: 59
+      height: 62
+    inner:
+      serializedVersion: 2
+      x: 317
+      y: 113
+      width: 59
+      height: 62
+    rotated: 0
+    paddingLeft: .0338983051
+    paddingRight: .0508474559
+    paddingTop: .0322580636
+    paddingBottom: 0
+  - name: Icon05_Item_Equip_115
+    outer:
+      serializedVersion: 2
+      x: 681
+      y: 284
+      width: 48
+      height: 58
+    inner:
+      serializedVersion: 2
+      x: 681
+      y: 284
+      width: 48
+      height: 58
+    rotated: 0
+    paddingLeft: .145833328
+    paddingRight: .1875
+    paddingTop: .068965517
+    paddingBottom: .0344827585
+  - name: Icon05_Item_Equip_71
+    outer:
+      serializedVersion: 2
+      x: 969
+      y: 820
+      width: 54
+      height: 63
+    inner:
+      serializedVersion: 2
+      x: 969
+      y: 820
+      width: 54
+      height: 63
+    rotated: 0
+    paddingLeft: .0925925896
+    paddingRight: .0925925896
+    paddingTop: .0158730168
+    paddingBottom: 0
+  - name: Icon05_Item_Equip_90
+    outer:
+      serializedVersion: 2
+      x: 378
+      y: 68
+      width: 61
+      height: 59
+    inner:
+      serializedVersion: 2
+      x: 378
+      y: 68
+      width: 61
+      height: 59
+    rotated: 0
+    paddingLeft: .0491803288
+    paddingRight: 0
+    paddingTop: .0508474559
+    paddingBottom: .0338983051
+  - name: Icon05_Item_Equip_122
+    outer:
+      serializedVersion: 2
+      x: 443
+      y: 629
+      width: 64
+      height: 60
+    inner:
+      serializedVersion: 2
+      x: 443
+      y: 629
+      width: 64
+      height: 60
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: .0166666675
+    paddingBottom: .0500000007
+  - name: Icon05_Item_Equip_94
+    outer:
+      serializedVersion: 2
+      x: 503
+      y: 451
+      width: 58
+      height: 60
+    inner:
+      serializedVersion: 2
+      x: 503
+      y: 451
+      width: 58
+      height: 60
+    rotated: 0
+    paddingLeft: .0517241396
+    paddingRight: .0517241396
+    paddingTop: .0333333351
+    paddingBottom: .0333333351
+  - name: Icon05_Item_Equip_39
+    outer:
+      serializedVersion: 2
+      x: 975
+      y: 885
+      width: 48
+      height: 63
+    inner:
+      serializedVersion: 2
+      x: 975
+      y: 885
+      width: 48
+      height: 63
+    rotated: 0
+    paddingLeft: .166666672
+    paddingRight: .166666672
+    paddingTop: .0158730168
+    paddingBottom: 0
+  - name: Icon05_Item_Equip_121
+    outer:
+      serializedVersion: 2
+      x: 939
+      y: 690
+      width: 60
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 939
+      y: 690
+      width: 60
+      height: 64
+    rotated: 0
+    paddingLeft: .0333333351
+    paddingRight: .0333333351
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Icon05_Item_Equip_07
+    outer:
+      serializedVersion: 2
+      x: 195
+      y: 560
+      width: 63
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 195
+      y: 560
+      width: 63
+      height: 64
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: .0158730168
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Icon05_Item_Equip_70
+    outer:
+      serializedVersion: 2
+      x: 562
+      y: 327
+      width: 53
+      height: 62
+    inner:
+      serializedVersion: 2
+      x: 562
+      y: 327
+      width: 53
+      height: 62
+    rotated: 0
+    paddingLeft: .094339624
+    paddingRight: .113207549
+    paddingTop: .0322580636
+    paddingBottom: 0
+  - name: Icon05_Item_Equip_08
+    outer:
+      serializedVersion: 2
+      x: 130
+      y: 429
+      width: 64
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 130
+      y: 429
+      width: 64
+      height: 64
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Icon05_Item_Equip_95
+    outer:
+      serializedVersion: 2
+      x: 562
+      y: 263
+      width: 52
+      height: 63
+    inner:
+      serializedVersion: 2
+      x: 562
+      y: 263
+      width: 52
+      height: 63
+    rotated: 0
+    paddingLeft: .0961538479
+    paddingRight: .134615391
+    paddingTop: .0158730168
+    paddingBottom: 0
+  - name: Icon05_Item_Equip_56
+    outer:
+      serializedVersion: 2
+      x: 822
+      y: 574
+      width: 63
+      height: 54
+    inner:
+      serializedVersion: 2
+      x: 822
+      y: 574
+      width: 63
+      height: 54
+    rotated: 0
+    paddingLeft: .0158730168
+    paddingRight: 0
+    paddingTop: .0925925896
+    paddingBottom: .0925925896
+  - name: Icon05_Item_Equip_22
+    outer:
+      serializedVersion: 2
+      x: 130
+      y: 819
+      width: 64
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 130
+      y: 819
+      width: 64
+      height: 64
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Icon05_Item_Equip_60
+    outer:
+      serializedVersion: 2
+      x: 503
+      y: 512
+      width: 62
+      height: 58
+    inner:
+      serializedVersion: 2
+      x: 503
+      y: 512
+      width: 62
+      height: 58
+    rotated: 0
+    paddingLeft: .0161290318
+    paddingRight: .0161290318
+    paddingTop: .103448279
+    paddingBottom: 0
+  - name: Icon05_Item_Equip_46
+    outer:
+      serializedVersion: 2
+      x: 259
+      y: 417
+      width: 57
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 259
+      y: 417
+      width: 57
+      height: 64
+    rotated: 0
+    paddingLeft: .0701754391
+    paddingRight: .0526315793
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Icon05_Item_Equip_76
+    outer:
+      serializedVersion: 2
+      x: 715
+      y: 884
+      width: 64
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 715
+      y: 884
+      width: 64
+      height: 64
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Icon05_Item_Equip_120
+    outer:
+      serializedVersion: 2
+      x: 617
+      y: 389
+      width: 51
+      height: 62
+    inner:
+      serializedVersion: 2
+      x: 617
+      y: 389
+      width: 51
+      height: 62
+    rotated: 0
+    paddingLeft: .0784313753
+    paddingRight: .176470593
+    paddingTop: .0161290318
+    paddingBottom: .0161290318
+  - name: Icon05_Item_Equip_72
+    outer:
+      serializedVersion: 2
+      x: 503
+      y: 261
+      width: 54
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 503
+      y: 261
+      width: 54
+      height: 64
+    rotated: 0
+    paddingLeft: .0925925896
+    paddingRight: .0925925896
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Icon05_Item_Equip_47
+    outer:
+      serializedVersion: 2
+      x: 317
+      y: 50
+      width: 59
+      height: 62
+    inner:
+      serializedVersion: 2
+      x: 317
+      y: 50
+      width: 59
+      height: 62
+    rotated: 0
+    paddingLeft: .0169491526
+    paddingRight: .0677966103
+    paddingTop: .0161290318
+    paddingBottom: .0161290318
+  - name: Icon05_Item_Health_05
+    outer:
+      serializedVersion: 2
+      x: 650
+      y: 884
+      width: 64
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 650
+      y: 884
+      width: 64
+      height: 64
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Icon05_Item_Equip_55
+    outer:
+      serializedVersion: 2
+      x: 195
+      y: 625
+      width: 63
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 195
+      y: 625
+      width: 63
+      height: 64
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: .0158730168
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Icon05_Item_Equip_09
+    outer:
+      serializedVersion: 2
+      x: 317
+      y: 560
+      width: 60
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 317
+      y: 560
+      width: 60
+      height: 64
+    rotated: 0
+    paddingLeft: .0500000007
+    paddingRight: .0166666675
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Icon05_Item_Equip_118
+    outer:
+      serializedVersion: 2
+      x: 730
+      y: 36
+      width: 42
+      height: 60
+    inner:
+      serializedVersion: 2
+      x: 730
+      y: 36
+      width: 42
+      height: 60
+    rotated: 0
+    paddingLeft: .214285716
+    paddingRight: .309523821
+    paddingTop: .0333333351
+    paddingBottom: .0333333351
+  - name: Icon05_Item_Equip_40
+    outer:
+      serializedVersion: 2
+      x: 441
+      y: 327
+      width: 60
+      height: 59
+    inner:
+      serializedVersion: 2
+      x: 441
+      y: 327
+      width: 60
+      height: 59
+    rotated: 0
+    paddingLeft: .0333333351
+    paddingRight: .0333333351
+    paddingTop: .0508474559
+    paddingBottom: .0338983051
+  - name: Icon05_Item_Equip_49
+    outer:
+      serializedVersion: 2
+      x: 195
+      y: 105
+      width: 62
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 195
+      y: 105
+      width: 62
+      height: 64
+    rotated: 0
+    paddingLeft: .0161290318
+    paddingRight: .0161290318
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Icon05_Item_Equip_25
+    outer:
+      serializedVersion: 2
+      x: 378
+      y: 629
+      width: 64
+      height: 60
+    inner:
+      serializedVersion: 2
+      x: 378
+      y: 629
+      width: 64
+      height: 60
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: .0166666675
+    paddingBottom: .0500000007
+  - name: Icon05_Item_Equip_42
+    outer:
+      serializedVersion: 2
+      x: 969
+      y: 452
+      width: 51
+      height: 59
+    inner:
+      serializedVersion: 2
+      x: 969
+      y: 452
+      width: 51
+      height: 59
+    rotated: 0
+    paddingLeft: .156862751
+    paddingRight: .0980392173
+    paddingTop: .0508474559
+    paddingBottom: .0338983051
+  - name: Icon05_Item_Equip_62
+    outer:
+      serializedVersion: 2
+      x: 378
+      y: 8
+      width: 61
+      height: 59
+    inner:
+      serializedVersion: 2
+      x: 378
+      y: 8
+      width: 61
+      height: 59
+    rotated: 0
+    paddingLeft: .0163934417
+    paddingRight: .0327868834
+    paddingTop: .0677966103
+    paddingBottom: .0169491526
+  - name: Icon05_Item_Equip_02
+    outer:
+      serializedVersion: 2
+      x: 585
+      y: 884
+      width: 64
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 585
+      y: 884
+      width: 64
+      height: 64
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Icon05_Item_Equip_41
+    outer:
+      serializedVersion: 2
+      x: 441
+      y: 387
+      width: 59
+      height: 60
+    inner:
+      serializedVersion: 2
+      x: 441
+      y: 387
+      width: 59
+      height: 60
+    rotated: 0
+    paddingLeft: .0169491526
+    paddingRight: .0677966103
+    paddingTop: .0333333351
+    paddingBottom: .0333333351
+  - name: Icon05_Item_Equip_54
+    outer:
+      serializedVersion: 2
+      x: 195
+      y: 40
+      width: 62
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 195
+      y: 40
+      width: 62
+      height: 64
+    rotated: 0
+    paddingLeft: .0161290318
+    paddingRight: .0161290318
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Icon05_Item_Equip_66
+    outer:
+      serializedVersion: 2
+      x: 978
+      y: 389
+      width: 44
+      height: 62
+    inner:
+      serializedVersion: 2
+      x: 978
+      y: 389
+      width: 44
+      height: 62
+    rotated: 0
+    paddingLeft: .25
+    paddingRight: .204545453
+    paddingTop: .0322580636
+    paddingBottom: 0
+  - name: Icon05_Item_Equip_06
+    outer:
+      serializedVersion: 2
+      x: 520
+      y: 884
+      width: 64
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 520
+      y: 884
+      width: 64
+      height: 64
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Icon05_Item_Equip_126
+    outer:
+      serializedVersion: 2
+      x: 325
+      y: 884
+      width: 64
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 325
+      y: 884
+      width: 64
+      height: 64
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Icon05_Item_Equip_96
+    outer:
+      serializedVersion: 2
+      x: 259
+      y: 755
+      width: 62
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 259
+      y: 755
+      width: 62
+      height: 64
+    rotated: 0
+    paddingLeft: .0161290318
+    paddingRight: .0161290318
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Icon05_Item_Equip_125
+    outer:
+      serializedVersion: 2
+      x: 325
+      y: 820
+      width: 64
+      height: 63
+    inner:
+      serializedVersion: 2
+      x: 325
+      y: 820
+      width: 64
+      height: 63
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: .0158730168
+    paddingBottom: 0
+  - name: Icon05_Item_Equip_84
+    outer:
+      serializedVersion: 2
+      x: 195
+      y: 495
+      width: 63
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 195
+      y: 495
+      width: 63
+      height: 64
+    rotated: 0
+    paddingLeft: .0158730168
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Icon05_Item_Equip_99
+    outer:
+      serializedVersion: 2
+      x: 584
+      y: 820
+      width: 63
+      height: 63
+    inner:
+      serializedVersion: 2
+      x: 584
+      y: 820
+      width: 63
+      height: 63
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: .0158730168
+    paddingTop: 0
+    paddingBottom: .0158730168
+  - name: Icon06_Skill_Assassin_01
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 819
+      width: 64
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 819
+      width: 64
+      height: 64
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Icon06_Skill_Wizard_04
+    outer:
+      serializedVersion: 2
+      x: 228
+      y: 950
+      width: 74
+      height: 74
+    inner:
+      serializedVersion: 2
+      x: 228
+      y: 950
+      width: 74
+      height: 74
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Icon06_Skill_Warrior_04
+    outer:
+      serializedVersion: 2
+      x: 78
+      y: 950
+      width: 74
+      height: 74
+    inner:
+      serializedVersion: 2
+      x: 78
+      y: 950
+      width: 74
+      height: 74
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Icon06_Skill_Warrior_03
+    outer:
+      serializedVersion: 2
+      x: 506
+      y: 960
+      width: 64
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 506
+      y: 960
+      width: 64
+      height: 64
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Icon06_Skill_Assassin_04
+    outer:
+      serializedVersion: 2
+      x: 153
+      y: 950
+      width: 74
+      height: 74
+    inner:
+      serializedVersion: 2
+      x: 153
+      y: 950
+      width: 74
+      height: 74
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Icon06_Skill_Assassin_02
+    outer:
+      serializedVersion: 2
+      x: 571
+      y: 960
+      width: 64
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 571
+      y: 960
+      width: 64
+      height: 64
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Icon06_Skill_Assassin_03
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 884
+      width: 64
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 884
+      width: 64
+      height: 64
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Icon06_Skill_Wizard_01
+    outer:
+      serializedVersion: 2
+      x: 636
+      y: 960
+      width: 64
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 636
+      y: 960
+      width: 64
+      height: 64
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Icon06_Skill_Warrior_01
+    outer:
+      serializedVersion: 2
+      x: 701
+      y: 960
+      width: 64
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 701
+      y: 960
+      width: 64
+      height: 64
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Icon06_Skill_Wizard_02
+    outer:
+      serializedVersion: 2
+      x: 896
+      y: 960
+      width: 64
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 896
+      y: 960
+      width: 64
+      height: 64
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Icon06_Skill_Wizard_03
+    outer:
+      serializedVersion: 2
+      x: 831
+      y: 960
+      width: 64
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 831
+      y: 960
+      width: 64
+      height: 64
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Icon06_Skill_Warrior_02
+    outer:
+      serializedVersion: 2
+      x: 520
+      y: 820
+      width: 63
+      height: 63
+    inner:
+      serializedVersion: 2
+      x: 520
+      y: 820
+      width: 63
+      height: 63
+    rotated: 0
+    paddingLeft: .0158730168
+    paddingRight: 0
+    paddingTop: .0158730168
+    paddingBottom: 0
+  - name: Button09_MedicineItem_Bottom_03
+    outer:
+      serializedVersion: 2
+      x: 260
+      y: 884
+      width: 64
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 260
+      y: 884
+      width: 64
+      height: 64
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Icon05_Item_Equip_127
+    outer:
+      serializedVersion: 2
+      x: 130
+      y: 884
+      width: 64
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 130
+      y: 884
+      width: 64
+      height: 64
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Icon05_Item_Strength_01
+    outer:
+      serializedVersion: 2
+      x: 195
+      y: 755
+      width: 63
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 195
+      y: 755
+      width: 63
+      height: 64
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Icon05_Item_Equip_158
+    outer:
+      serializedVersion: 2
+      x: 130
+      y: 40
+      width: 64
+      height: 63
+    inner:
+      serializedVersion: 2
+      x: 130
+      y: 40
+      width: 64
+      height: 63
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: .0158730168
+    paddingBottom: 0
+  - name: Icon05_Item_Equip_180
+    outer:
+      serializedVersion: 2
+      x: 916
+      y: 453
+      width: 52
+      height: 58
+    inner:
+      serializedVersion: 2
+      x: 916
+      y: 453
+      width: 52
+      height: 58
+    rotated: 0
+    paddingLeft: .115384616
+    paddingRight: .115384616
+    paddingTop: .0517241396
+    paddingBottom: .0517241396
+  - name: Icon05_Item_Equip_177
+    outer:
+      serializedVersion: 2
+      x: 882
+      y: 287
+      width: 48
+      height: 55
+    inner:
+      serializedVersion: 2
+      x: 882
+      y: 287
+      width: 48
+      height: 55
+    rotated: 0
+    paddingLeft: .1875
+    paddingRight: .145833328
+    paddingTop: .0727272704
+    paddingBottom: .0909090936
+  - name: Icon05_Item_Equip_155
+    outer:
+      serializedVersion: 2
+      x: 65
+      y: 559
+      width: 64
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 65
+      y: 559
+      width: 64
+      height: 64
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Icon05_Item_Equip_132
+    outer:
+      serializedVersion: 2
+      x: 877
+      y: 519
+      width: 64
+      height: 51
+    inner:
+      serializedVersion: 2
+      x: 877
+      y: 519
+      width: 64
+      height: 51
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: .196078435
+    paddingBottom: .0588235296
+  - name: Icon05_Item_Equip_129
+    outer:
+      serializedVersion: 2
+      x: 681
+      y: 343
+      width: 64
+      height: 45
+    inner:
+      serializedVersion: 2
+      x: 681
+      y: 343
+      width: 64
+      height: 45
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: .200000003
+    paddingBottom: .222222224
+  - name: Icon05_Item_Equip_160
+    outer:
+      serializedVersion: 2
+      x: 65
+      y: 624
+      width: 64
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 65
+      y: 624
+      width: 64
+      height: 64
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Icon05_Item_Equip_179
+    outer:
+      serializedVersion: 2
+      x: 730
+      y: 287
+      width: 50
+      height: 55
+    inner:
+      serializedVersion: 2
+      x: 730
+      y: 287
+      width: 50
+      height: 55
+    rotated: 0
+    paddingLeft: .180000007
+    paddingRight: .100000001
+    paddingTop: .0909090936
+    paddingBottom: .0727272704
+  - name: Icon05_Item_Equip_136
+    outer:
+      serializedVersion: 2
+      x: 848
+      y: 405
+      width: 64
+      height: 46
+    inner:
+      serializedVersion: 2
+      x: 848
+      y: 405
+      width: 64
+      height: 46
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: .217391297
+    paddingBottom: .173913047
+  - name: Icon05_Item_Equip_156
+    outer:
+      serializedVersion: 2
+      x: 950
+      y: 755
+      width: 61
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 950
+      y: 755
+      width: 61
+      height: 64
+    rotated: 0
+    paddingLeft: .0163934417
+    paddingRight: .0327868834
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Icon05_Item_Equip_153
+    outer:
+      serializedVersion: 2
+      x: 817
+      y: 690
+      width: 60
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 817
+      y: 690
+      width: 60
+      height: 64
+    rotated: 0
+    paddingLeft: .0166666675
+    paddingRight: .0500000007
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Icon05_Item_Equip_154
+    outer:
+      serializedVersion: 2
+      x: 648
+      y: 820
+      width: 63
+      height: 63
+    inner:
+      serializedVersion: 2
+      x: 648
+      y: 820
+      width: 63
+      height: 63
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: .0158730168
+    paddingTop: 0
+    paddingBottom: .0158730168
+  - name: Icon05_Item_Equip_135
+    outer:
+      serializedVersion: 2
+      x: 732
+      y: 463
+      width: 64
+      height: 48
+    inner:
+      serializedVersion: 2
+      x: 732
+      y: 463
+      width: 64
+      height: 48
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: .1875
+    paddingBottom: .145833328
+  - name: Icon05_Item_Equip_152
+    outer:
+      serializedVersion: 2
+      x: 65
+      y: 884
+      width: 64
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 65
+      y: 884
+      width: 64
+      height: 64
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Icon05_Item_Equip_178
+    outer:
+      serializedVersion: 2
+      x: 862
+      y: 454
+      width: 53
+      height: 57
+    inner:
+      serializedVersion: 2
+      x: 862
+      y: 454
+      width: 53
+      height: 57
+    rotated: 0
+    paddingLeft: .113207549
+    paddingRight: .094339624
+    paddingTop: .0526315793
+    paddingBottom: .0701754391
+  - name: Icon05_Item_Equip_184
+    outer:
+      serializedVersion: 2
+      x: 317
+      y: 496
+      width: 60
+      height: 63
+    inner:
+      serializedVersion: 2
+      x: 317
+      y: 496
+      width: 60
+      height: 63
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: .0666666701
+    paddingTop: 0
+    paddingBottom: .0158730168
+  - name: Icon05_Item_Equip_159
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 39
+      width: 64
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 39
+      width: 64
+      height: 64
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Icon05_Item_Equip_131
+    outer:
+      serializedVersion: 2
+      x: 720
+      y: 404
+      width: 64
+      height: 47
+    inner:
+      serializedVersion: 2
+      x: 720
+      y: 404
+      width: 64
+      height: 47
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: .148936167
+    paddingBottom: .212765962
+  - name: Icon05_Item_Equip_130
+    outer:
+      serializedVersion: 2
+      x: 913
+      y: 405
+      width: 64
+      height: 46
+    inner:
+      serializedVersion: 2
+      x: 913
+      y: 405
+      width: 64
+      height: 46
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: .195652172
+    paddingBottom: .195652172
+  - name: Icon05_Item_Equip_183
+    outer:
+      serializedVersion: 2
+      x: 905
+      y: 821
+      width: 63
+      height: 62
+    inner:
+      serializedVersion: 2
+      x: 905
+      y: 821
+      width: 63
+      height: 62
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: .0158730168
+    paddingTop: .0322580636
+    paddingBottom: 0
+  - name: Icon05_Item_Equip_182
+    outer:
+      serializedVersion: 2
+      x: 698
+      y: 571
+      width: 60
+      height: 57
+    inner:
+      serializedVersion: 2
+      x: 698
+      y: 571
+      width: 60
+      height: 57
+    rotated: 0
+    paddingLeft: .0500000007
+    paddingRight: .0166666675
+    paddingTop: .0701754391
+    paddingBottom: .0526315793
+  - name: Icon05_Item_Equip_157
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 169
+      width: 64
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 169
+      width: 64
+      height: 64
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Icon05_Item_Equip_128
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 299
+      width: 64
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 299
+      width: 64
+      height: 64
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Icon05_Item_Equip_134
+    outer:
+      serializedVersion: 2
+      x: 749
+      y: 518
+      width: 64
+      height: 52
+    inner:
+      serializedVersion: 2
+      x: 749
+      y: 518
+      width: 64
+      height: 52
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: .115384616
+    paddingBottom: .115384616
+  - name: Icon05_Item_Equip_181
+    outer:
+      serializedVersion: 2
+      x: 781
+      y: 287
+      width: 50
+      height: 55
+    inner:
+      serializedVersion: 2
+      x: 781
+      y: 287
+      width: 50
+      height: 55
+    rotated: 0
+    paddingLeft: .159999996
+    paddingRight: .119999997
+    paddingTop: .109090909
+    paddingBottom: .0545454547
+  - name: Icon05_Item_Equip_133
+    outer:
+      serializedVersion: 2
+      x: 950
+      y: 575
+      width: 64
+      height: 53
+    inner:
+      serializedVersion: 2
+      x: 950
+      y: 575
+      width: 64
+      height: 53
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: .094339624
+    paddingBottom: .113207549
+  - name: Icon05_Item_Item_02
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 429
+      width: 64
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 429
+      width: 64
+      height: 64
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Icon05_Item_Item_05
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 494
+      width: 64
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 494
+      width: 64
+      height: 64
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Icon05_Item_Item_01
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 689
+      width: 64
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 689
+      width: 64
+      height: 64
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Icon05_Item_Item_03
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 624
+      width: 64
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 624
+      width: 64
+      height: 64
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Icon05_Item_Item_07
+    outer:
+      serializedVersion: 2
+      x: 195
+      y: 884
+      width: 64
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 195
+      y: 884
+      width: 64
+      height: 64
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Icon05_Item_Item_09
+    outer:
+      serializedVersion: 2
+      x: 65
+      y: 39
+      width: 64
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 65
+      y: 39
+      width: 64
+      height: 64
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Icon05_Item_Item_11
+    outer:
+      serializedVersion: 2
+      x: 65
+      y: 169
+      width: 64
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 65
+      y: 169
+      width: 64
+      height: 64
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Icon05_Item_Item_08
+    outer:
+      serializedVersion: 2
+      x: 65
+      y: 234
+      width: 64
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 65
+      y: 234
+      width: 64
+      height: 64
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Icon05_Item_Item_06
+    outer:
+      serializedVersion: 2
+      x: 65
+      y: 299
+      width: 64
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 65
+      y: 299
+      width: 64
+      height: 64
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Icon05_Item_Item_04
+    outer:
+      serializedVersion: 2
+      x: 65
+      y: 364
+      width: 64
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 65
+      y: 364
+      width: 64
+      height: 64
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Icon05_Item_Item_10
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 559
+      width: 64
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 559
+      width: 64
+      height: 64
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Icon05_Item_Item_24
+    outer:
+      serializedVersion: 2
+      x: 130
+      y: 494
+      width: 64
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 130
+      y: 494
+      width: 64
+      height: 64
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Icon05_Item_Item_20
+    outer:
+      serializedVersion: 2
+      x: 195
+      y: 300
+      width: 63
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 195
+      y: 300
+      width: 63
+      height: 64
+    rotated: 0
+    paddingLeft: .0158730168
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Icon05_Item_Item_17
+    outer:
+      serializedVersion: 2
+      x: 378
+      y: 128
+      width: 58
+      height: 63
+    inner:
+      serializedVersion: 2
+      x: 378
+      y: 128
+      width: 58
+      height: 63
+    rotated: 0
+    paddingLeft: .068965517
+    paddingRight: .0344827585
+    paddingTop: .0158730168
+    paddingBottom: 0
+  - name: Icon05_Item_Item_14
+    outer:
+      serializedVersion: 2
+      x: 385
+      y: 755
+      width: 62
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 385
+      y: 755
+      width: 62
+      height: 64
+    rotated: 0
+    paddingLeft: .0322580636
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Icon05_Item_Item_25
+    outer:
+      serializedVersion: 2
+      x: 562
+      y: 73
+      width: 52
+      height: 62
+    inner:
+      serializedVersion: 2
+      x: 562
+      y: 73
+      width: 52
+      height: 62
+    rotated: 0
+    paddingLeft: .0961538479
+    paddingRight: .134615391
+    paddingTop: .0161290318
+    paddingBottom: .0161290318
+  - name: Icon05_Item_Item_13
+    outer:
+      serializedVersion: 2
+      x: 878
+      y: 690
+      width: 60
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 878
+      y: 690
+      width: 60
+      height: 64
+    rotated: 0
+    paddingLeft: .0166666675
+    paddingRight: .0500000007
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Icon05_Item_Item_12
+    outer:
+      serializedVersion: 2
+      x: 678
+      y: 452
+      width: 53
+      height: 59
+    inner:
+      serializedVersion: 2
+      x: 678
+      y: 452
+      width: 53
+      height: 59
+    rotated: 0
+    paddingLeft: .150943398
+    paddingRight: .0566037744
+    paddingTop: .0677966103
+    paddingBottom: .0169491526
+  - name: Icon05_Item_Item_19
+    outer:
+      serializedVersion: 2
+      x: 195
+      y: 430
+      width: 63
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 195
+      y: 430
+      width: 63
+      height: 64
+    rotated: 0
+    paddingLeft: .0158730168
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Icon05_Item_Item_15
+    outer:
+      serializedVersion: 2
+      x: 766
+      y: 960
+      width: 64
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 766
+      y: 960
+      width: 64
+      height: 64
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Icon05_Item_Equip_148
+    outer:
+      serializedVersion: 2
+      x: 765
+      y: 631
+      width: 64
+      height: 58
+    inner:
+      serializedVersion: 2
+      x: 765
+      y: 631
+      width: 64
+      height: 58
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: .0517241396
+    paddingBottom: .0517241396
+  - name: Icon05_Item_Equip_169
+    outer:
+      serializedVersion: 2
+      x: 442
+      y: 692
+      width: 62
+      height: 62
+    inner:
+      serializedVersion: 2
+      x: 442
+      y: 692
+      width: 62
+      height: 62
+    rotated: 0
+    paddingLeft: .0161290318
+    paddingRight: .0161290318
+    paddingTop: 0
+    paddingBottom: .0322580636
+  - name: Icon05_Item_Equip_170
+    outer:
+      serializedVersion: 2
+      x: 378
+      y: 380
+      width: 61
+      height: 61
+    inner:
+      serializedVersion: 2
+      x: 378
+      y: 380
+      width: 61
+      height: 61
+    rotated: 0
+    paddingLeft: .0327868834
+    paddingRight: .0163934417
+    paddingTop: .0163934417
+    paddingBottom: .0327868834
+  - name: Icon05_Item_Equip_139
+    outer:
+      serializedVersion: 2
+      x: 797
+      y: 463
+      width: 64
+      height: 48
+    inner:
+      serializedVersion: 2
+      x: 797
+      y: 463
+      width: 64
+      height: 48
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: .145833328
+    paddingBottom: .1875
+  - name: Icon05_Item_Equip_173
+    outer:
+      serializedVersion: 2
+      x: 379
+      y: 692
+      width: 62
+      height: 62
+    inner:
+      serializedVersion: 2
+      x: 379
+      y: 692
+      width: 62
+      height: 62
+    rotated: 0
+    paddingLeft: .0161290318
+    paddingRight: .0161290318
+    paddingTop: .0161290318
+    paddingBottom: .0161290318
+  - name: Icon05_Item_Equip_172
+    outer:
+      serializedVersion: 2
+      x: 378
+      y: 192
+      width: 58
+      height: 63
+    inner:
+      serializedVersion: 2
+      x: 378
+      y: 192
+      width: 58
+      height: 63
+    rotated: 0
+    paddingLeft: .0517241396
+    paddingRight: .0517241396
+    paddingTop: 0
+    paddingBottom: .0158730168
+  - name: Icon05_Item_Equip_142
+    outer:
+      serializedVersion: 2
+      x: 785
+      y: 403
+      width: 62
+      height: 48
+    inner:
+      serializedVersion: 2
+      x: 785
+      y: 403
+      width: 62
+      height: 48
+    rotated: 0
+    paddingLeft: .0322580636
+    paddingRight: 0
+    paddingTop: .229166672
+    paddingBottom: .104166664
+  - name: Icon05_Item_Equip_146
+    outer:
+      serializedVersion: 2
+      x: 441
+      y: 267
+      width: 60
+      height: 59
+    inner:
+      serializedVersion: 2
+      x: 441
+      y: 267
+      width: 60
+      height: 59
+    rotated: 0
+    paddingLeft: .0333333351
+    paddingRight: .0333333351
+    paddingTop: .0338983051
+    paddingBottom: .0508474559
+  - name: Icon05_Item_Equip_167
+    outer:
+      serializedVersion: 2
+      x: 505
+      y: 691
+      width: 61
+      height: 63
+    inner:
+      serializedVersion: 2
+      x: 505
+      y: 691
+      width: 61
+      height: 63
+    rotated: 0
+    paddingLeft: .0327868834
+    paddingRight: .0163934417
+    paddingTop: .0158730168
+    paddingBottom: 0
+  - name: Icon05_Item_Equip_164
+    outer:
+      serializedVersion: 2
+      x: 317
+      y: 241
+      width: 58
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 317
+      y: 241
+      width: 58
+      height: 64
+    rotated: 0
+    paddingLeft: .0517241396
+    paddingRight: .0517241396
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Icon05_Item_Equip_161
+    outer:
+      serializedVersion: 2
+      x: 130
+      y: 299
+      width: 64
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 130
+      y: 299
+      width: 64
+      height: 64
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Icon05_Item_Equip_141
+    outer:
+      serializedVersion: 2
+      x: 617
+      y: 231
+      width: 63
+      height: 45
+    inner:
+      serializedVersion: 2
+      x: 617
+      y: 231
+      width: 63
+      height: 45
+    rotated: 0
+    paddingLeft: .0158730168
+    paddingRight: 0
+    paddingTop: .266666681
+    paddingBottom: .155555561
+  - name: Icon05_Item_Equip_176
+    outer:
+      serializedVersion: 2
+      x: 259
+      y: 482
+      width: 57
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 259
+      y: 482
+      width: 57
+      height: 64
+    rotated: 0
+    paddingLeft: .0701754391
+    paddingRight: .0526315793
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Icon05_Item_Equip_137
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1
+      width: 62
+      height: 37
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1
+      width: 62
+      height: 37
+    rotated: 0
+    paddingLeft: .0161290318
+    paddingRight: .0161290318
+    paddingTop: .351351351
+    paddingBottom: .378378391
+  - name: Icon05_Item_Equip_174
+    outer:
+      serializedVersion: 2
+      x: 378
+      y: 256
+      width: 61
+      height: 61
+    inner:
+      serializedVersion: 2
+      x: 378
+      y: 256
+      width: 61
+      height: 61
+    rotated: 0
+    paddingLeft: .0327868834
+    paddingRight: .0163934417
+    paddingTop: .0327868834
+    paddingBottom: .0163934417
+  - name: Icon05_Item_Equip_149
+    outer:
+      serializedVersion: 2
+      x: 390
+      y: 820
+      width: 64
+      height: 63
+    inner:
+      serializedVersion: 2
+      x: 390
+      y: 820
+      width: 64
+      height: 63
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: .0158730168
+  - name: Icon05_Item_Equip_175
+    outer:
+      serializedVersion: 2
+      x: 195
+      y: 235
+      width: 63
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 195
+      y: 235
+      width: 63
+      height: 64
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: .0158730168
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Icon05_Item_Equip_162
+    outer:
+      serializedVersion: 2
+      x: 448
+      y: 755
+      width: 62
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 448
+      y: 755
+      width: 62
+      height: 64
+    rotated: 0
+    paddingLeft: .0161290318
+    paddingRight: .0161290318
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Icon05_Item_Equip_166
+    outer:
+      serializedVersion: 2
+      x: 317
+      y: 625
+      width: 60
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 317
+      y: 625
+      width: 60
+      height: 64
+    rotated: 0
+    paddingLeft: .0500000007
+    paddingRight: .0166666675
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Icon05_Item_Equip_145
+    outer:
+      serializedVersion: 2
+      x: 441
+      y: 511
+      width: 61
+      height: 59
+    inner:
+      serializedVersion: 2
+      x: 441
+      y: 511
+      width: 61
+      height: 59
+    rotated: 0
+    paddingLeft: .0163934417
+    paddingRight: .0327868834
+    paddingTop: .0338983051
+    paddingBottom: .0508474559
+  - name: Icon05_Item_Equip_150
+    outer:
+      serializedVersion: 2
+      x: 840
+      y: 821
+      width: 64
+      height: 62
+    inner:
+      serializedVersion: 2
+      x: 840
+      y: 821
+      width: 64
+      height: 62
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: .0161290318
+    paddingBottom: .0161290318
+  - name: Icon05_Item_Equip_171
+    outer:
+      serializedVersion: 2
+      x: 763
+      y: 756
+      width: 62
+      height: 63
+    inner:
+      serializedVersion: 2
+      x: 763
+      y: 756
+      width: 62
+      height: 63
+    rotated: 0
+    paddingLeft: .0161290318
+    paddingRight: .0161290318
+    paddingTop: 0
+    paddingBottom: .0158730168
+  - name: Icon05_Item_Equip_138
+    outer:
+      serializedVersion: 2
+      x: 130
+      y: 1
+      width: 63
+      height: 38
+    inner:
+      serializedVersion: 2
+      x: 130
+      y: 1
+      width: 63
+      height: 38
+    rotated: 0
+    paddingLeft: .0158730168
+    paddingRight: 0
+    paddingTop: .394736856
+    paddingBottom: .289473683
+  - name: Icon05_Item_Equip_143
+    outer:
+      serializedVersion: 2
+      x: 636
+      y: 630
+      width: 64
+      height: 59
+    inner:
+      serializedVersion: 2
+      x: 636
+      y: 630
+      width: 64
+      height: 59
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: .0338983051
+    paddingBottom: .0508474559
+  - name: Icon05_Item_Equip_151
+    outer:
+      serializedVersion: 2
+      x: 508
+      y: 629
+      width: 63
+      height: 60
+    inner:
+      serializedVersion: 2
+      x: 508
+      y: 629
+      width: 63
+      height: 60
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: .0158730168
+    paddingTop: .0500000007
+    paddingBottom: .0166666675
+  - name: Icon05_Item_Equip_140
+    outer:
+      serializedVersion: 2
+      x: 570
+      y: 572
+      width: 64
+      height: 56
+    inner:
+      serializedVersion: 2
+      x: 570
+      y: 572
+      width: 64
+      height: 56
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: .0892857164
+    paddingBottom: .0535714291
+  - name: Icon05_Item_Equip_144
+    outer:
+      serializedVersion: 2
+      x: 617
+      y: 342
+      width: 63
+      height: 46
+    inner:
+      serializedVersion: 2
+      x: 617
+      y: 342
+      width: 63
+      height: 46
+    rotated: 0
+    paddingLeft: .0158730168
+    paddingRight: 0
+    paddingTop: .217391297
+    paddingBottom: .173913047
+  - name: Icon05_Item_Equip_147
+    outer:
+      serializedVersion: 2
+      x: 958
+      y: 632
+      width: 64
+      height: 57
+    inner:
+      serializedVersion: 2
+      x: 958
+      y: 632
+      width: 64
+      height: 57
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: .0526315793
+    paddingBottom: .0701754391
+  - name: Icon05_Item_Equip_168
+    outer:
+      serializedVersion: 2
+      x: 455
+      y: 820
+      width: 64
+      height: 63
+    inner:
+      serializedVersion: 2
+      x: 455
+      y: 820
+      width: 64
+      height: 63
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: .0158730168
+    paddingBottom: 0
+  - name: Icon05_Item_Equip_165
+    outer:
+      serializedVersion: 2
+      x: 776
+      y: 820
+      width: 63
+      height: 63
+    inner:
+      serializedVersion: 2
+      x: 776
+      y: 820
+      width: 63
+      height: 63
+    rotated: 0
+    paddingLeft: .0158730168
+    paddingRight: 0
+    paddingTop: .0158730168
+    paddingBottom: 0
+  - name: Icon05_Item_Equip_163
+    outer:
+      serializedVersion: 2
+      x: 888
+      y: 755
+      width: 61
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 888
+      y: 755
+      width: 61
+      height: 64
+    rotated: 0
+    paddingLeft: .0163934417
+    paddingRight: .0327868834
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Icon05_Item_Health_17
+    outer:
+      serializedVersion: 2
+      x: 130
+      y: 559
+      width: 64
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 130
+      y: 559
+      width: 64
+      height: 64
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Icon05_Item_Health_16
+    outer:
+      serializedVersion: 2
+      x: 441
+      y: 29
+      width: 60
+      height: 58
+    inner:
+      serializedVersion: 2
+      x: 441
+      y: 29
+      width: 60
+      height: 58
+    rotated: 0
+    paddingLeft: .0666666701
+    paddingRight: 0
+    paddingTop: .103448279
+    paddingBottom: 0
+  - name: Icon05_Item_Health_12
+    outer:
+      serializedVersion: 2
+      x: 130
+      y: 689
+      width: 64
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 130
+      y: 689
+      width: 64
+      height: 64
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Icon05_Item_Health_15
+    outer:
+      serializedVersion: 2
+      x: 910
+      y: 884
+      width: 64
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 910
+      y: 884
+      width: 64
+      height: 64
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Icon05_Item_Health_10
+    outer:
+      serializedVersion: 2
+      x: 627
+      y: 512
+      width: 60
+      height: 58
+    inner:
+      serializedVersion: 2
+      x: 627
+      y: 512
+      width: 60
+      height: 58
+    rotated: 0
+    paddingLeft: .0666666701
+    paddingRight: 0
+    paddingTop: .103448279
+    paddingBottom: 0
+  - name: Icon05_Item_Health_18
+    outer:
+      serializedVersion: 2
+      x: 780
+      y: 884
+      width: 64
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 780
+      y: 884
+      width: 64
+      height: 64
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Icon05_Item_Health_14
+    outer:
+      serializedVersion: 2
+      x: 441
+      y: 207
+      width: 59
+      height: 59
+    inner:
+      serializedVersion: 2
+      x: 441
+      y: 207
+      width: 59
+      height: 59
+    rotated: 0
+    paddingLeft: .0847457647
+    paddingRight: 0
+    paddingTop: .0847457647
+    paddingBottom: 0
+  - name: Icon05_Item_Health_11
+    outer:
+      serializedVersion: 2
+      x: 441
+      y: 147
+      width: 59
+      height: 59
+    inner:
+      serializedVersion: 2
+      x: 441
+      y: 147
+      width: 59
+      height: 59
+    rotated: 0
+    paddingLeft: .0847457647
+    paddingRight: 0
+    paddingTop: .0847457647
+    paddingBottom: 0
+  - name: Icon05_Item_Health_13
+    outer:
+      serializedVersion: 2
+      x: 688
+      y: 512
+      width: 60
+      height: 58
+    inner:
+      serializedVersion: 2
+      x: 688
+      y: 512
+      width: 60
+      height: 58
+    rotated: 0
+    paddingLeft: .0666666701
+    paddingRight: 0
+    paddingTop: .103448279
+    paddingBottom: 0
+  - name: Icon05_Item_Item_26
+    outer:
+      serializedVersion: 2
+      x: 65
+      y: 819
+      width: 64
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 65
+      y: 819
+      width: 64
+      height: 64
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1
